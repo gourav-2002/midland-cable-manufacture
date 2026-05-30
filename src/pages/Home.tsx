@@ -689,7 +689,7 @@ export default function Home({
             <div className="lg:col-span-7 grid grid-cols-12 gap-3 md:gap-4 relative">
               <div className="col-span-7 h-[280px] sm:h-[400px] overflow-hidden rounded-[4px] relative group hover:shadow-xl transition-all duration-300">
                 <img 
-                  src="/src/assets/images/factory_hq_1779552956267.png" 
+                  src="/images/factory_hq_1779552956267.png"
                   alt="Midland Corporate Headquarters"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   referrerPolicy="no-referrer"
@@ -703,7 +703,7 @@ export default function Home({
               <div className="col-span-5 flex flex-col gap-3 md:gap-4 justify-between h-[280px] sm:h-[400px]">
                 <div className="h-[29%] overflow-hidden rounded-[4px] relative group">
                   <img 
-                    src="/src/assets/images/copper_rods_1779552976090.png" 
+                    src="/images/copper_rods_1779552976090.png"
                     alt="High purity copper rods stack"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     referrerPolicy="no-referrer"
@@ -713,7 +713,7 @@ export default function Home({
 
                 <div className="h-[29%] overflow-hidden rounded-[4px] relative group">
                   <img 
-                    src="/src/assets/images/copper_coils_1779552995494.png" 
+                    src="/images/copper_coils_1779552995494.png"
                     alt="Heavy wiring copper coils"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     referrerPolicy="no-referrer"
@@ -1829,7 +1829,7 @@ export default function Home({
         <div 
           className="absolute left-0 top-0 bottom-0 w-full lg:w-1/2 opacity-15 pointer-events-none mix-blend-screen z-0 bg-cover bg-left-center"
           style={{ 
-            backgroundImage: `url('/src/assets/images/copper_coils_1779552995494.png')`,
+            backgroundImage: `url('/images/copper_coils_1779552995494.png')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-industrial-black/80 to-industrial-black z-1 pointer-events-none" />

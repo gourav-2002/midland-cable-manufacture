@@ -2,21 +2,21 @@ import { Product, Industry, StatItem } from './types';
 
 export const HERO_SLIDES = [
   {
-    image: '/src/assets/images/molten_copper_hero_1779552936229.png',
+    image: '/images/molten_copper_hero_1779552936229.png',
     tagline: 'BUILT ON TRUST.',
     titleLine1: 'DRIVEN BY',
     titleLine2: 'EXCELLENCE.',
     subtext: 'Midland Cable Manufacture is a globally recognized manufacturer of premium copper products and cables, delivering quality, reliability and performance across the world.',
   },
   {
-    image: '/src/assets/images/factory_hq_1779552956267.png',
+    image: '/images/factory_hq_1779552956267.png',
     tagline: 'STATE-OF-THE-ART MANUFACTURING.',
     titleLine1: 'ENGINEERED',
     titleLine2: 'FOR FUTURE.',
     subtext: 'Operating ultra-modern production plants designed to process electrolytic copper into highest conductivity cables and rods representing world-class quality thresholds.',
   },
   {
-    image: '/src/assets/images/copper_rods_1779552976090.png',
+    image: '/images/copper_rods_1779552976090.png',
     tagline: 'GLOBAL DISTRIBUTION READY.',
     titleLine1: 'PRECISION',
     titleLine2: 'COMMITTED.',
@@ -89,7 +89,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Ultra-pure continuous cast copper rods.',
     description: 'High conductivity copper rods for electrical and industrial applications.',
     longDescription: 'Midland continuous cast copper rods are manufactured using Grade A electrolytic copper cathode. Possessing high electrical conductivity and outstanding mechanical drawing characteristics, they form the cornerstone of premium wire drawing operations.',
-    image: '/src/assets/images/copper_rods_1779552976090.png',
+    image: '/images/copper_rods_1779552976090.png',
     features: [
       'Conductivity exceeding 101% IACS',
       'Extremely low hydrogen and oxygen levels',
@@ -111,7 +111,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Flexible, high-tensile wire reels.',
     description: 'Flexible and durable copper wires for electrical and electronic use.',
     longDescription: 'Our drawing mills manufacture single-end and multi-end copper wires down to ultra-fine gauges. Available in bare, tinned, or silver-plated finishes to offer maximum oxidation resistance and premium electrical performance.',
-    image: '/src/assets/images/copper_coils_1779552995494.png', // Reusing generated high quality coil wire style
+    image: '/images/copper_coils_1779552995494.png',
     features: [
       'Precision gauge consistency tolerance within 0.002mm',
       'Superb flexibility and fatigue resistance',
@@ -155,7 +155,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Seamless architectural & HVAC tubes.',
     description: 'Seamless copper tubes for plumbing, HVAC and industrial applications.',
     longDescription: 'Deoxidized high-phosphorus (DHP) copper tubes designed for heat exchange, HVAC, medical gas, and premium plumbing networks. Features perfectly circular concentric interiors to avoid liquid stagnation and secure leak-free longevity.',
-    image: '/src/assets/images/copper_tubes_1779553017346.png',
+    image: '/images/copper_tubes_1779553017346.png',
     features: [
       'Guaranteed seamless draw profile',
       'Ultra clean dry inner surfaces to ASTM standards',
@@ -177,7 +177,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'High speed winding electromagnetic coils.',
     description: 'High grade copper coils for various industrial applications.',
     longDescription: 'High precision strip and heavy wire coils intended for large-scale electrical transformations, industrial magnetic windings, choke coils, and telecommunication inductive cores. Packaged to protect against moisture.',
-    image: '/src/assets/images/copper_coils_1779552995494.png',
+    image: '/images/copper_coils_1779552995494.png',
     features: [
       'High speed winding suitability',
       'Zero insulation defect compatibility',
@@ -199,7 +199,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Machined terminals & precision fittings.',
     description: 'Precision engineered copper components for specialized applications.',
     longDescription: 'Sleek, bespoke CNC-milled and hot-stamped copper components, connecting rods, switchgear connectors, and architectural plumbing couplings designed to operate in high vibration or heat intensive environments.',
-    image: '/src/assets/images/copper_components_1779553037569.png',
+    image: '/images/copper_components_1779553037569.png',
     features: [
       'Micrometer scaling precision accuracy',
       'Advanced electroplating options (Tin, Silver, Nickel)',
