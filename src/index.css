@@ -1,0 +1,60 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Satoshi", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-sans: "Manrope", sans-serif;
+  
+  --color-bronze-primary: #B08D57;
+  --color-bronze-secondary: #8C6A43;
+  --color-industrial-black: #111111;
+  --color-industrial-gray-dark: #1F1F1F;
+  --color-industrial-gray-light: #F7F7F7;
+  
+  --animate-fade-in: fade-in 0.6s ease-out;
+  --animate-slide-up: slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { transform: translateY(24px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Apply font-display to all h1, h2, h3, h4 tags. */
+h1, h2, h3, h4 {
+  font-family: 'Satoshi', sans-serif;
+}
+
+/* Apply font-body to body tag and all paragraphs. */
+body, p {
+  font-family: 'Manrope', sans-serif;
+}
+
+/* Custom visual refinements to enforce the luxury manufacturing style */
+body {
+  background-color: #FFFFFF;
+  color: #111111;
+  overflow-x: hidden;
+}
+
+/* Scrollbar styling matching the luxury dark aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: #B08D57;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8C6A43;
+}
