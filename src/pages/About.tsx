@@ -346,7 +346,7 @@ export default function About() {
           
           {/* Section Headers */}
           <div className="text-center mb-20 space-y-3" id="timeline-decor">
-            <span className="text-xs tracking-[0.3em] uppercase text-[#B08D57] font-semibold block uppercase">
+            <span className="text-xs tracking-[0.3em] uppercase text-[#B08D57] font-semibold block">
               OUR JOURNEY
             </span>
             <h2 className="font-display font-black text-4xl text-[#111111] uppercase tracking-tight">
@@ -718,8 +718,8 @@ export default function About() {
             
             {/* Person 1 */}
             <div className="text-center group" id="leader-1">
-              <div className="w-32 h-32 rounded-full mx-auto object-cover overflow-hidden border-4 border-transparent group-hover:border-[#B08D57] transition-all duration-500 shadow-md">
-                <img 
+              <div className="w-32 h-32 rounded-full mx-auto overflow-hidden border-4 border-transparent group-hover:border-[#B08D57] transition-all duration-500 shadow-md">
+                <img
                   src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300"
                   alt="Arjun Midland portrait"
                   className="w-full h-full object-cover transform scale-100 group-hover:scale-110 transition-transform duration-500"
@@ -739,8 +739,8 @@ export default function About() {
 
             {/* Person 2 */}
             <div className="text-center group" id="leader-2">
-              <div className="w-32 h-32 rounded-full mx-auto object-cover overflow-hidden border-4 border-transparent group-hover:border-[#B08D57] transition-all duration-500 shadow-md">
-                <img 
+              <div className="w-32 h-32 rounded-full mx-auto overflow-hidden border-4 border-transparent group-hover:border-[#B08D57] transition-all duration-500 shadow-md">
+                <img
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300"
                   alt="Priya Sharma portrait"
                   className="w-full h-full object-cover transform scale-100 group-hover:scale-110 transition-transform duration-500"
@@ -760,8 +760,8 @@ export default function About() {
 
             {/* Person 3 */}
             <div className="text-center group" id="leader-3">
-              <div className="w-32 h-32 rounded-full mx-auto object-cover overflow-hidden border-4 border-transparent group-hover:border-[#B08D57] transition-all duration-500 shadow-md">
-                <img 
+              <div className="w-32 h-32 rounded-full mx-auto overflow-hidden border-4 border-transparent group-hover:border-[#B08D57] transition-all duration-500 shadow-md">
+                <img
                   src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300"
                   alt="David Chen portrait"
                   className="w-full h-full object-cover transform scale-100 group-hover:scale-110 transition-transform duration-500"

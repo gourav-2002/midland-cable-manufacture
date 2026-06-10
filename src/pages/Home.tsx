@@ -1,33 +1,33 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  ArrowRight, 
-  ChevronLeft, 
-  ChevronRight, 
-  Shield, 
-  Cpu, 
-  Globe, 
-  Award, 
-  Trophy, 
-  Users, 
-  Check, 
-  FileSpreadsheet, 
-  ShieldCheck, 
-  Activity, 
-  Layers, 
-  Tag, 
-  Zap, 
-  Hammer, 
-  Car, 
-  BatteryCharging, 
-  Building, 
-  Snowflake, 
-  Radio, 
-  CheckCircle2, 
-  ShieldAlert, 
-  Milestone, 
-  RefreshCw, 
-  TrendingUp, 
+import {
+  ArrowRight,
+  ChevronLeft,
+  ChevronRight,
+  Shield,
+  Cpu,
+  Globe,
+  Award,
+  Trophy,
+  Users,
+  Check,
+  FileSpreadsheet,
+  ShieldCheck,
+  Activity,
+  Layers,
+  Tag,
+  Zap,
+  Hammer,
+  Car,
+  BatteryCharging,
+  Building,
+  Snowflake,
+  Radio,
+  CheckCircle2,
+  ShieldAlert,
+  Milestone,
+  RefreshCw,
+  TrendingUp,
   Mail,
   X,
   Calculator,
@@ -53,19 +53,19 @@ interface HomeProps {
   onNavigateToSection: (sectionId: string) => void;
 }
 
-export default function Home({ 
-  quoteOpen, 
-  onCloseQuote, 
-  preselectedProduct, 
-  onOpenQuote, 
-  onOpenContact, 
-  onNavigateToSection 
+export default function Home({
+  quoteOpen,
+  onCloseQuote,
+  preselectedProduct,
+  onOpenQuote,
+  onOpenContact,
+  onNavigateToSection
 }: HomeProps) {
   // --- QuoteDialog States ---
   const [quoteStep, setQuoteStep] = useState<1 | 2 | 3>(1);
   const [quoteProductId, setQuoteProductId] = useState(preselectedProduct || PRODUCTS[0].id);
   const [quoteAlloyGrade, setQuoteAlloyGrade] = useState('');
-  
+
   // Dimensional inputs for real-time weights calculation
   const [quoteLength, setQuoteLength] = useState<number>(100); // meters or mm based on product
   const [quoteDiameter, setQuoteDiameter] = useState<number>(8); // mm for rods/wires
@@ -73,7 +73,7 @@ export default function Home({
   const [quoteThickness, setQuoteThickness] = useState<number>(2); // mm for sheets
   const [quoteWallThickness, setQuoteWallThickness] = useState<number>(1); // mm for tubes
   const [quoteQuantityCount, setQuoteQuantityCount] = useState<number>(1); // count of items
-  
+
   // Calculated Weight & Price parameters
   const [quoteCalculatedWeight, setQuoteCalculatedWeight] = useState<number>(0);
   const [quoteFormSubmitted, setQuoteFormSubmitted] = useState(false);
@@ -105,7 +105,7 @@ export default function Home({
   // Pure Copper Density ≈ 8.96 g/cm³ = 8960 kg/m³
   useEffect(() => {
     let weightInKg = 0;
-    
+
     switch (quoteProductId) {
       case 'copper-rods':
       case 'copper-wires': {
@@ -260,10 +260,9 @@ export default function Home({
   const [activeIndex, setActiveIndex] = useState(0);
 
   const getIndustryIcon = (iconName: string, isActive: boolean) => {
-    const iconClass = `w-7 h-7 transition-all duration-300 ${
-      isActive ? 'text-white' : 'text-bronze-primary group-hover:scale-110'
-    }`;
-    
+    const iconClass = `w-7 h-7 transition-all duration-300 ${isActive ? 'text-white' : 'text-bronze-primary group-hover:scale-110'
+      }`;
+
     switch (iconName) {
       case 'Zap':
         return <Zap className={iconClass} />;
@@ -359,14 +358,14 @@ export default function Home({
 
       setYearsCount(Math.min(25, Math.floor(easeProgress * 25)));
       setClientsCount(Math.min(500, Math.floor(easeProgress * 500)));
-      setCountriesCount(Math.min(40, Math.floor(easeProgress * 40)));
+      setCountriesCount(Math.min(15, Math.floor(easeProgress * 15)));
       setQualityCount(Math.min(100, Math.floor(easeProgress * 100)));
 
       if (frame >= totalFrames) {
         clearInterval(timer);
         setYearsCount(25);
         setClientsCount(500);
-        setCountriesCount(40);
+        setCountriesCount(15);
         setQualityCount(100);
       }
     }, frameRate);
@@ -526,9 +525,8 @@ export default function Home({
           {HERO_SLIDES.map((slide, index) => (
             <div
               key={index}
-              className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-                index === activeSlide ? 'opacity-100 scale-100' : 'opacity-0 scale-105 pointer-events-none'
-              }`}
+              className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === activeSlide ? 'opacity-100 scale-100' : 'opacity-0 scale-105 pointer-events-none'
+                }`}
             >
               <div className="absolute inset-0 lg:left-[40%] bg-cover bg-center" style={{ backgroundImage: `url(${slide.image})` }}>
                 <div className="absolute inset-0 bg-gradient-to-r from-industrial-black via-industrial-black/80 lg:via-industrial-black/50 to-transparent"></div>
@@ -591,14 +589,14 @@ export default function Home({
         </div>
 
         <div className="absolute bottom-6 right-6 z-25 flex items-center gap-2">
-          <button 
+          <button
             onClick={handlePrevSlide}
             className="p-2 border border-white/10 rounded-[4px] hover:bg-white/5 text-gray-400 hover:text-white transition-all focus:outline-none"
             aria-label="Previous Hero Slide"
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
-          <button 
+          <button
             onClick={handleNextSlide}
             className="p-2 border border-white/10 rounded-[4px] hover:bg-white/5 text-gray-400 hover:text-white transition-all focus:outline-none"
             aria-label="Next Hero Slide"
@@ -612,9 +610,8 @@ export default function Home({
             <button
               key={index}
               onClick={() => setActiveSlide(index)}
-              className={`h-2 rounded-[2px] transition-all duration-350 cursor-pointer ${
-                index === activeSlide ? 'w-8 bg-bronze-primary' : 'w-2 bg-white/30 hover:bg-white/50'
-              }`}
+              className={`h-2 rounded-[2px] transition-all duration-350 cursor-pointer ${index === activeSlide ? 'w-8 bg-bronze-primary' : 'w-2 bg-white/30 hover:bg-white/50'
+                }`}
               aria-label={`Show slide details ${index + 1}`}
             />
           ))}
@@ -626,11 +623,10 @@ export default function Home({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 relative">
             {TRUST_ITEMS.map((item, index) => (
-              <div 
+              <div
                 key={item.id}
-                className={`flex items-start gap-4 p-4 lg:px-8 relative ${
-                  index !== 0 ? 'lg:border-l lg:border-white/10' : ''
-                }`}
+                className={`flex items-start gap-4 p-4 lg:px-8 relative ${index !== 0 ? 'lg:border-l lg:border-white/10' : ''
+                  }`}
                 id={`trust-card-${item.id}`}
               >
                 <div className="p-3 bg-white/5 rounded-[4px] border border-white/10 shrink-0">
@@ -688,7 +684,7 @@ export default function Home({
 
             <div className="lg:col-span-7 grid grid-cols-12 gap-3 md:gap-4 relative">
               <div className="col-span-7 h-[280px] sm:h-[400px] overflow-hidden rounded-[4px] relative group hover:shadow-xl transition-all duration-300">
-                <img 
+                <img
                   src="/images/factory_hq_1779552956267.png"
                   alt="Midland Corporate Headquarters"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -702,7 +698,7 @@ export default function Home({
 
               <div className="col-span-5 flex flex-col gap-3 md:gap-4 justify-between h-[280px] sm:h-[400px]">
                 <div className="h-[29%] overflow-hidden rounded-[4px] relative group">
-                  <img 
+                  <img
                     src="/images/copper_rods_1779552976090.png"
                     alt="High purity copper rods stack"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -712,7 +708,7 @@ export default function Home({
                 </div>
 
                 <div className="h-[29%] overflow-hidden rounded-[4px] relative group">
-                  <img 
+                  <img
                     src="/images/copper_coils_1779552995494.png"
                     alt="Heavy wiring copper coils"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -722,8 +718,8 @@ export default function Home({
                 </div>
 
                 <div className="h-[29%] overflow-hidden rounded-[4px] relative group">
-                  <img 
-                    src="https://picsum.photos/seed/factoryfloor/400/300" 
+                  <img
+                    src="https://picsum.photos/seed/factoryfloor/400/300"
                     alt="Midland manufacturing plant floor"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     referrerPolicy="no-referrer"
@@ -741,7 +737,7 @@ export default function Home({
             <div className="relative bg-white text-industrial-black max-w-2xl w-full rounded-[4px] shadow-2xl p-6 sm:p-8 z-10 border border-bronze-primary/25">
               <h3 className="font-display font-bold text-2xl uppercase tracking-wide text-industrial-black border-b border-gray-200 pb-4 mb-6 flex justify-between items-center">
                 <span>Our Corporate Chapters</span>
-                <button 
+                <button
                   onClick={() => setShowHistoryModal(false)}
                   className="text-gray-400 hover:text-industrial-black text-sm font-mono"
                 >
@@ -804,9 +800,8 @@ export default function Home({
               <div
                 key={stat.id}
                 onClick={() => setActiveStatId(activeStatId === stat.id ? null : stat.id)}
-                className={`flex flex-col items-center justify-center text-center px-6 py-4 cursor-pointer group transition-all duration-300 relative ${
-                  index !== 0 ? 'lg:border-l lg:border-gray-200' : ''
-                }`}
+                className={`flex flex-col items-center justify-center text-center px-6 py-4 cursor-pointer group transition-all duration-300 relative ${index !== 0 ? 'lg:border-l lg:border-gray-200' : ''
+                  }`}
                 id={`stat-column-${stat.id}`}
               >
                 <div className="mb-3.5 p-3.5 bg-white rounded-[4px] shadow-sm border border-gray-100 group-hover:scale-110 group-hover:bg-bronze-primary/10 transition-all duration-300">
@@ -948,8 +943,8 @@ export default function Home({
                 id={`product-card-${prod.id}`}
               >
                 <div className="aspect-[4/3] w-full overflow-hidden relative bg-industrial-black">
-                  <img 
-                    src={prod.image} 
+                  <img
+                    src={prod.image}
                     alt={prod.name}
                     className="w-full h-full object-cover transition-transform duration-750 group-hover:scale-105"
                     referrerPolicy="no-referrer"
@@ -996,17 +991,17 @@ export default function Home({
         {selectedProduct && (
           <div className="fixed inset-0 z-50 overflow-y-auto flex items-center justify-center p-4" id="datasheet-modal">
             <div className="fixed inset-0 bg-black/90 transition-opacity" onClick={() => setSelectedProduct(null)} />
-            
+
             <div className="relative bg-white text-industrial-black max-w-4xl w-full rounded-[4px] shadow-2xl overflow-hidden z-10 border border-bronze-primary/20 flex flex-col lg:flex-row h-[90vh] lg:h-auto max-h-[750px] animate-fade-in">
               <div className="lg:w-1/2 bg-industrial-black text-white relative h-64 lg:h-auto">
-                <img 
-                  src={selectedProduct.image} 
+                <img
+                  src={selectedProduct.image}
                   alt={selectedProduct.name}
                   className="w-full h-full object-cover absolute inset-0 opacity-40"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-industrial-black via-industrial-black/60 to-transparent"></div>
-                
+
                 <div className="absolute bottom-8 left-8 right-8 space-y-3 z-10">
                   <span className="text-[10px] font-mono uppercase tracking-widest text-bronze-primary font-bold">
                     METALLURGICAL OVERVIEW
@@ -1017,7 +1012,7 @@ export default function Home({
                   <p className="text-xs text-gray-300 leading-relaxed font-sans font-light">
                     {selectedProduct.longDescription}
                   </p>
-                  
+
                   <div className="pt-2 flex flex-wrap gap-1.5">
                     {selectedProduct.alloyGrades.map((grade) => (
                       <span key={grade} className="text-[10px] font-mono bg-white/10 text-white border border-white/10 px-2 py-0.5 rounded-[2px]">
@@ -1027,7 +1022,7 @@ export default function Home({
                   </div>
                 </div>
 
-                <button 
+                <button
                   onClick={() => setSelectedProduct(null)}
                   className="absolute top-4 left-4 p-2 bg-black/50 text-white rounded-[4px] lg:hidden z-20"
                 >
@@ -1041,8 +1036,8 @@ export default function Home({
                     <h4 className="text-[10px] font-mono uppercase tracking-widest text-bronze-primary">TECHNICAL SPECIFICATION BOOKLET</h4>
                     <span className="font-display text-sm font-bold text-gray-400">Class 1 Electrolytic Castings</span>
                   </div>
-                  <button 
-                    onClick={() => setSelectedProduct(null)} 
+                  <button
+                    onClick={() => setSelectedProduct(null)}
                     className="hidden lg:block text-xs font-mono text-gray-400 hover:text-industrial-black hover:font-bold"
                   >
                     [ CLOSE X ]
@@ -1223,21 +1218,18 @@ export default function Home({
                 <button
                   key={ind.id}
                   onClick={() => setActiveIndex(idx)}
-                  className={`flex flex-col items-center justify-center p-5 rounded-[4px] border transition-all duration-300 group cursor-pointer ${
-                    isActive 
-                      ? 'bg-industrial-black border-bronze-primary shadow-lg scale-105'
-                      : 'border-gray-200 hover:border-bronze-primary/40 hover:bg-industrial-gray-light/30'
-                  }`}
+                  className={`flex flex-col items-center justify-center p-5 rounded-[4px] border transition-all duration-300 group cursor-pointer ${isActive
+                    ? 'bg-industrial-black border-bronze-primary shadow-lg scale-105'
+                    : 'border-gray-200 hover:border-bronze-primary/40 hover:bg-industrial-gray-light/30'
+                    }`}
                   aria-label={`Select industry details for ${ind.name}`}
                 >
-                  <div className={`mb-3 p-2.5 rounded-[4px] transition-colors ${
-                    isActive ? 'bg-bronze-primary' : 'bg-bronze-primary/5'
-                  }`}>
+                  <div className={`mb-3 p-2.5 rounded-[4px] transition-colors ${isActive ? 'bg-bronze-primary' : 'bg-bronze-primary/5'
+                    }`}>
                     {getIndustryIcon(ind.iconName, isActive)}
                   </div>
-                  <span className={`text-[11px] font-mono font-bold uppercase tracking-wider text-center ${
-                    isActive ? 'text-white' : 'text-industrial-black'
-                  }`}>
+                  <span className={`text-[11px] font-mono font-bold uppercase tracking-wider text-center ${isActive ? 'text-white' : 'text-industrial-black'
+                    }`}>
                     {ind.name}
                   </span>
                 </button>
@@ -1245,8 +1237,8 @@ export default function Home({
             })}
           </div>
 
-          <div 
-            className="bg-industrial-gray-light p-6 sm:p-10 rounded-[4px] border border-gray-200 transition-all duration-500 flex flex-col md:flex-row justify-between gap-8 items-center" 
+          <div
+            className="bg-industrial-gray-light p-6 sm:p-10 rounded-[4px] border border-gray-200 transition-all duration-500 flex flex-col md:flex-row justify-between gap-8 items-center"
             id="industry-details-panel"
           >
             <div className="space-y-4 max-w-xl">
@@ -1319,8 +1311,8 @@ export default function Home({
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4" id="bento-grid">
               {/* Card 1 - Tall, span-1 tall */}
-              <div 
-                className="bg-[#111111] p-10 flex flex-col justify-between rounded-none shadow-sm relative overflow-hidden" 
+              <div
+                className="bg-[#111111] p-10 flex flex-col justify-between rounded-none shadow-sm relative overflow-hidden"
                 style={{ minHeight: '480px' }}
                 id="bento-card-1"
               >
@@ -1341,23 +1333,23 @@ export default function Home({
               {/* Column containing Card 2 & Card 3 */}
               <div className="flex flex-col gap-4">
                 {/* Card 2 */}
-                <div 
+                <div
                   className="bg-[#F7F7F7] p-8 hover:bg-[#B08D57] group transition-all duration-500 flex flex-col justify-between flex-1 rounded-none"
                   id="bento-card-2"
                 >
                   <div>
                     <Globe className="w-9 h-9 text-[#B08D57] mb-4 group-hover:text-white transition-colors duration-500 stroke-[1.25]" />
                     <h3 className="font-display font-bold text-xl text-[#111111] mb-3 group-hover:text-white transition-colors duration-500">
-                      {countriesCount}+ Countries Served
+                      {countriesCount}+ States Served
                     </h3>
                     <p className="text-gray-500 text-sm leading-relaxed font-body font-light group-hover:text-white/80 transition-colors duration-500">
-                      From India to UAE to Europe and Americas our global logistics network delivers reliably to 40+ countries worldwide.
+                      From North to South and East to West across the nation, our dedicated logistics network ensures reliable delivery to every corner of the country.
                     </p>
                   </div>
                 </div>
 
                 {/* Card 3 */}
-                <div 
+                <div
                   className="bg-[#B08D57] p-8 flex flex-col justify-between flex-1 rounded-none shadow-sm"
                   id="bento-card-3"
                 >
@@ -1374,7 +1366,7 @@ export default function Home({
               </div>
 
               {/* Card 5 - Mini Stats Row & Happy Clients */}
-              <div 
+              <div
                 className="bg-[#111111] p-8 flex flex-col justify-between rounded-none shadow-sm"
                 id="bento-card-5"
               >
@@ -1387,7 +1379,7 @@ export default function Home({
                     From electrical contractors to infrastructure giants — 500+ clients trust Midland for consistent quality and reliable supply.
                   </p>
                 </div>
-                
+
                 <div className="mt-auto pt-4 flex flex-col gap-2 border-t border-white/5">
                   <div className="flex gap-1 text-[#B08D57] text-lg select-none">★★★★★</div>
                   <div className="text-gray-500 text-xs font-body font-medium">Rated 4.9/5 by our clients</div>
@@ -1398,7 +1390,7 @@ export default function Home({
               </div>
 
               {/* Card 4 - Full wide on bottom row (colspan-2) inside lg:grid */}
-              <div 
+              <div
                 className="col-span-1 lg:col-span-3 bg-[#F7F7F7] p-8 flex flex-col lg:flex-row items-center justify-between gap-12 rounded-none shadow-xs"
                 id="bento-card-4"
               >
@@ -1536,7 +1528,7 @@ export default function Home({
                     GLOBAL PRESENCE
                   </span>
                   <h2 className="font-display font-black text-4xl text-white leading-tight mb-6">
-                    Serving Industries Across 40+ Countries
+                    Serving Industries Across 15+ States
                   </h2>
                   <div className="w-12 h-px bg-[#B08D57] mb-8"></div>
                 </div>
@@ -1570,8 +1562,8 @@ export default function Home({
                 {/* Stats Grid */}
                 <div className="grid grid-cols-2 gap-4 pt-4">
                   <div className="bg-[#1F1F1F] border border-white/10 p-5 rounded-sm">
-                    <div className="font-display font-black text-3xl text-[#B08D57]">40+</div>
-                    <div className="text-gray-500 text-xs font-body mt-2">Countries Exported To</div>
+                    <div className="font-display font-black text-3xl text-[#B08D57]">15+</div>
+                    <div className="text-gray-500 text-xs font-body mt-2">States Served</div>
                   </div>
                   <div className="bg-[#1F1F1F] border border-white/10 p-5 rounded-sm">
                     <div className="font-display font-black text-3xl text-[#B08D57]">500+</div>
@@ -1591,7 +1583,7 @@ export default function Home({
               {/* Right Map Column (5 cols) */}
               <div className="lg:col-span-6">
                 <div className="bg-[#1F1F1F] border border-white/10 p-8 flex flex-col justify-center min-h-[400px] relative overflow-hidden rounded-sm w-full h-full">
-                  
+
                   {/* SVG Simplified Continent Map */}
                   <svg viewBox="0 0 1000 500" className="w-full h-full opacity-35 pointer-events-none select-none z-0">
                     <path d="M50 150 L100 120 L150 100 L200 90 L250 110 L300 120 L350 130 L380 180 L350 250 L300 280 L250 250 L200 230 L150 240 L100 220 Z" stroke="#B08D57" strokeWidth="1.5" strokeDasharray="3 4" fill="#B08D57" fillOpacity="0.08" />
@@ -1603,7 +1595,7 @@ export default function Home({
                   </svg>
 
                   {/* Animated Pulse Dots */}
-                  
+
                   {/* India */}
                   <div className="absolute top-[40%] left-[62%] group cursor-pointer" id="dot-india">
                     <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
@@ -1678,7 +1670,7 @@ export default function Home({
 
                   <div className="absolute bottom-6 left-0 right-0 text-center">
                     <span className="font-display font-semibold text-white text-sm bg-[#111111]/90 px-3 py-1.5 border border-white/10 rounded-sm">
-                      40+ Countries
+                      15+ States
                     </span>
                   </div>
                 </div>
@@ -1700,7 +1692,7 @@ export default function Home({
                 The Metallurgy of Uncompromised Trust
               </h2>
               <div className="h-[2px] w-12 bg-bronze-primary" />
-              
+
               <p className="text-sm text-gray-500 leading-relaxed font-sans font-light">
                 We understand that industrial infrastructure demands flawless core conductors. A single micro-pocket of oxidation can compromise entire regional grids. This is why Midland employs physical laser profiling and ultrasound integrity checking on every metric ton shipped.
               </p>
@@ -1715,7 +1707,7 @@ export default function Home({
 
             <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-1 gap-6">
               {whyMidlandValues.map((v, i) => (
-                <div 
+                <div
                   key={i}
                   className="bg-white p-6 sm:p-8 rounded-[4px] border border-gray-150 shadow-sm flex flex-col sm:flex-row gap-5 items-start hover:shadow-md transition-shadow"
                 >
@@ -1812,8 +1804,8 @@ export default function Home({
             </div>
 
             <div className="text-center mt-16">
-              <Link 
-                to="/blog" 
+              <Link
+                to="/blog"
                 className="inline-block bg-[#111111] hover:bg-[#B08D57] text-white px-8 py-3.5 font-body font-semibold text-sm transition-all duration-300"
                 id="view-all-insights-btn"
               >
@@ -1826,9 +1818,9 @@ export default function Home({
 
       {/* ================= CTA BANNER SECTION ================= */}
       <section className="bg-industrial-black py-16 md:py-24 border-t border-b border-white/5 relative overflow-hidden" id="contact">
-        <div 
+        <div
           className="absolute left-0 top-0 bottom-0 w-full lg:w-1/2 opacity-15 pointer-events-none mix-blend-screen z-0 bg-cover bg-left-center"
-          style={{ 
+          style={{
             backgroundImage: `url('/images/copper_coils_1779552995494.png')`,
           }}
         />
@@ -1870,8 +1862,8 @@ export default function Home({
       {quoteOpen && (
         <div className="fixed inset-0 z-50 overflow-y-auto" id="quote-drawer-container">
           {/* Backdrop */}
-          <div 
-            className="fixed inset-0 bg-black/80 transition-opacity duration-300" 
+          <div
+            className="fixed inset-0 bg-black/80 transition-opacity duration-300"
             onClick={onCloseQuote}
             id="quote-drawer-backdrop"
           />
@@ -1879,7 +1871,7 @@ export default function Home({
           {/* Panel Centering Wrapper */}
           <div className="flex min-h-screen items-center justify-end p-0 sm:p-4">
             {/* Slidout Drawer Body */}
-            <div 
+            <div
               className="relative w-full max-w-2xl bg-white text-industrial-black shadow-2xl min-h-screen sm:min-h-0 sm:rounded-[4px] overflow-hidden flex flex-col transition-all duration-300 transform translate-x-0"
               id="quote-calculator-panel"
             >
@@ -1894,7 +1886,7 @@ export default function Home({
                     <p className="text-xs text-gray-400 font-mono">LIVE COPPER WEIGHT & RFQ ENGINE</p>
                   </div>
                 </div>
-                <button 
+                <button
                   onClick={onCloseQuote}
                   className="text-gray-400 hover:text-white transition-colors duration-200 p-1 bg-white/5 rounded-[4px] hover:bg-white/10"
                   aria-label="Close quote drawer"
@@ -1927,7 +1919,7 @@ export default function Home({
                   <div className="space-y-6">
                     <div>
                       <label className="block text-xs font-mono uppercase text-bronze-primary tracking-widest mb-2">1. SELECT METAL PRODUCT</label>
-                      <select 
+                      <select
                         value={quoteProductId}
                         onChange={(e) => setQuoteProductId(e.target.value)}
                         className="w-full bg-white border border-gray-300 rounded-[4px] p-3 text-sm font-semibold tracking-wide text-industrial-black focus:outline-none focus:border-bronze-primary transition-colors"
@@ -1948,11 +1940,10 @@ export default function Home({
                               key={grade}
                               type="button"
                               onClick={() => setQuoteAlloyGrade(grade)}
-                              className={`p-3 text-xs font-mono rounded-[4px] text-center border transition-all duration-200 ${
-                                quoteAlloyGrade === grade 
-                                  ? 'bg-industrial-black border-bronze-primary text-bronze-primary font-bold shadow-sm'
-                                  : 'border-gray-200 text-gray-600 hover:border-gray-400 hover:bg-gray-50'
-                              }`}
+                              className={`p-3 text-xs font-mono rounded-[4px] text-center border transition-all duration-200 ${quoteAlloyGrade === grade
+                                ? 'bg-industrial-black border-bronze-primary text-bronze-primary font-bold shadow-sm'
+                                : 'border-gray-200 text-gray-600 hover:border-gray-400 hover:bg-gray-50'
+                                }`}
                             >
                               {grade}
                             </button>
@@ -1982,8 +1973,8 @@ export default function Home({
                               {quoteProductId === 'copper-tubes' ? 'Outer Diameter (mm)' : 'Diameter (mm)'}
                             </label>
                             <div className="relative">
-                              <input 
-                                type="number" 
+                              <input
+                                type="number"
                                 value={quoteDiameter}
                                 min={0.1}
                                 max={200}
@@ -2001,8 +1992,8 @@ export default function Home({
                             <div>
                               <label className="block text-xs text-gray-500 mb-1">Width (mm)</label>
                               <div className="relative">
-                                <input 
-                                  type="number" 
+                                <input
+                                  type="number"
                                   value={quoteWidth}
                                   min={10}
                                   max={3000}
@@ -2016,8 +2007,8 @@ export default function Home({
                             <div>
                               <label className="block text-xs text-gray-500 mb-1">Thickness (mm)</label>
                               <div className="relative">
-                                <input 
-                                  type="number" 
+                                <input
+                                  type="number"
                                   value={quoteThickness}
                                   min={0.1}
                                   max={100}
@@ -2035,8 +2026,8 @@ export default function Home({
                           <div>
                             <label className="block text-xs text-gray-500 mb-1">Wall Thickness (mm)</label>
                             <div className="relative">
-                              <input 
-                                type="number" 
+                              <input
+                                type="number"
                                 value={quoteWallThickness}
                                 min={0.1}
                                 max={quoteDiameter / 2 - 0.1}
@@ -2056,8 +2047,8 @@ export default function Home({
                               {quoteProductId === 'copper-sheets' ? 'Length (m)' : 'Total Segment Length (m)'}
                             </label>
                             <div className="relative">
-                              <input 
-                                type="number" 
+                              <input
+                                type="number"
                                 value={quoteLength}
                                 min={1}
                                 onChange={(e) => setQuoteLength(Math.max(1, Number(e.target.value)))}
@@ -2071,8 +2062,8 @@ export default function Home({
                         {/* Package item count */}
                         <div>
                           <label className="block text-xs text-gray-500 mb-1">Total Pieces / Batches</label>
-                          <input 
-                            type="number" 
+                          <input
+                            type="number"
                             value={quoteQuantityCount}
                             min={1}
                             onChange={(e) => setQuoteQuantityCount(Math.max(1, Number(e.target.value)))}
@@ -2087,7 +2078,7 @@ export default function Home({
                       <div className="absolute right-0 top-0 opacity-10">
                         <Globe className="w-48 h-48 -mr-10 -mt-10 text-white" />
                       </div>
-                      
+
                       <div className="relative space-y-4">
                         <h4 className="text-[10px] font-mono uppercase tracking-widest text-bronze-primary">DYNAMIC VOLUMETRIC EXTRAPOLATION</h4>
                         <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-white/10 pb-4">
@@ -2119,7 +2110,7 @@ export default function Home({
 
                     {/* Footer Proceed button */}
                     <div className="pt-2">
-                       <button
+                      <button
                         onClick={handleNextStep}
                         className="w-full bg-bronze-primary hover:bg-bronze-secondary text-white font-semibold py-4 rounded-[4px] text-sm uppercase tracking-widest flex items-center justify-center gap-2 cursor-pointer hover:shadow-lg transition-all"
                       >
@@ -2148,8 +2139,8 @@ export default function Home({
                         </label>
                         <div className="relative">
                           <span className="absolute left-3 top-3 text-gray-400"><User className="w-4 h-4" /></span>
-                          <input 
-                            type="text" 
+                          <input
+                            type="text"
                             value={quoteFullName}
                             onChange={(e) => setQuoteFullName(e.target.value)}
                             placeholder="John Doe"
@@ -2166,8 +2157,8 @@ export default function Home({
                         </label>
                         <div className="relative">
                           <span className="absolute left-3 top-3 text-gray-400"><Building className="w-4 h-4" /></span>
-                          <input 
-                            type="text" 
+                          <input
+                            type="text"
                             value={quoteCompany}
                             onChange={(e) => setQuoteCompany(e.target.value)}
                             placeholder="Industrial Power Grid Corp"
@@ -2185,8 +2176,8 @@ export default function Home({
                           </label>
                           <div className="relative">
                             <span className="absolute left-3 top-3 text-gray-400"><Mail className="w-4 h-4" /></span>
-                            <input 
-                              type="email" 
+                            <input
+                              type="email"
                               value={quoteEmail}
                               onChange={(e) => setQuoteEmail(e.target.value)}
                               placeholder="procurement@company.com"
@@ -2202,8 +2193,8 @@ export default function Home({
                           </label>
                           <div className="relative">
                             <span className="absolute left-3 top-3 text-gray-400"><Phone className="w-4 h-4" /></span>
-                            <input 
-                              type="tel" 
+                            <input
+                              type="tel"
                               value={quotePhone}
                               onChange={(e) => setQuotePhone(e.target.value)}
                               placeholder="+1 (555) 019-2834"
@@ -2216,7 +2207,7 @@ export default function Home({
                       {/* Notes / Technical Specs details */}
                       <div>
                         <label className="block text-xs font-mono uppercase text-gray-600 tracking-wider mb-1.5">Custom metallurgical requirements / tolerances</label>
-                        <textarea 
+                        <textarea
                           value={quoteNotes}
                           onChange={(e) => setQuoteNotes(e.target.value)}
                           placeholder="Specify if tinned or silver plated finishes, specific continuous casting temper specifications, or custom length packaging are wanted."
@@ -2249,11 +2240,11 @@ export default function Home({
                     <div className="inline-flex items-center justify-center p-4 bg-green-50 border border-green-200 rounded-[4px] text-green-600 mb-2">
                       <CheckCircle2 className="w-16 h-16 stroke-[1.5]" />
                     </div>
-                    
+
                     <div className="space-y-2">
                       <h4 className="font-display text-2xl font-bold uppercase tracking-wide text-industrial-black">RFQ Sent Successfully!</h4>
                       <p className="text-gray-500 text-sm max-w-md mx-auto">
-                        Your request has been filed in the Midland Central Enterprise ERP under Reference Code: 
+                        Your request has been filed in the Midland Central Enterprise ERP under Reference Code:
                         <span className="font-mono text-bronze-secondary font-bold ml-1">MCM-2026-{(Math.floor(Math.random() * 90000) + 10000)}</span>.
                       </p>
                     </div>

@@ -2,7 +2,7 @@ import { Product, Industry, StatItem } from './types';
 
 export const HERO_SLIDES = [
   {
-    image: '/images/molten_copper_hero_1779552936229.png',
+    image: '/images/copper_coils_1779552995494.png',
     tagline: 'BUILT ON TRUST.',
     titleLine1: 'DRIVEN BY',
     titleLine2: 'EXCELLENCE.',
@@ -16,11 +16,11 @@ export const HERO_SLIDES = [
     subtext: 'Operating ultra-modern production plants designed to process electrolytic copper into highest conductivity cables and rods representing world-class quality thresholds.',
   },
   {
-    image: '/images/copper_rods_1779552976090.png',
+    image: '/images/copper_wires.png',
     tagline: 'GLOBAL DISTRIBUTION READY.',
     titleLine1: 'PRECISION',
     titleLine2: 'COMMITTED.',
-    subtext: 'From bespoke custom specifications to rapid high-volume international distributions, Midland serves forty-plus countries with verified certifications compliance.',
+    subtext: 'From bespoke custom specifications to rapid high-volume distributions, Midland serves 15+ states with verified certifications compliance.',
   }
 ];
 
@@ -41,7 +41,7 @@ export const TRUST_ITEMS = [
     id: 'global-presence',
     iconName: 'Globe',
     title: 'Global Presence',
-    description: 'Serving customers in 40+ countries worldwide.'
+    description: 'Serving customers in 15+ states.'
   },
   {
     id: 'trust-reliability',
@@ -69,9 +69,9 @@ export const STATS: StatItem[] = [
   {
     id: 'countries',
     iconName: 'Globe',
-    number: '40+',
-    label: 'Countries Served',
-    description: 'Robust supply chains connecting primary industrial zones.'
+    number: '15+',
+    label: 'States Served',
+    description: 'Robust supply chains connecting primary industrial zones across the nation.'
   },
   {
     id: 'quality',
