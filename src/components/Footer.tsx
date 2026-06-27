@@ -28,7 +28,7 @@ export default function Footer({ onNavigateToSection, onOpenQuote }: FooterProps
             </div>
             
             <p className="text-sm text-gray-400 font-body font-light leading-relaxed max-w-xs">
-              Midland is an international leader in smelting Grade A copper cathodes into high-purity wires, rods, sheets, and tubes, compliance-certified for electric vehicles, telecom relays, and national energy grid arrays.
+              Midland is a leading Indian manufacturer in smelting Grade A copper cathodes into high-purity wires, rods, sheets, and tubes, compliance-certified for electric vehicles, telecom relays, and national energy grid arrays.
             </p>
 
             <div className="text-sm font-body text-gray-400 space-y-3 pt-2">

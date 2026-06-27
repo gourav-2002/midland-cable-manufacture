@@ -174,12 +174,12 @@ export default function About() {
 
   const timelineEvents = [
     { year: '1999', title: 'The Beginning', desc: 'Midland Cable Manufacture founded with a single copper rod drawing machine and a vision for quality.' },
-    { year: '2003', title: 'First Export', desc: 'Expanded beyond domestic markets with our first international export order to the Middle East.' },
-    { year: '2008', title: 'ISO Certification', desc: 'Achieved ISO 9001 certification marking our commitment to international quality management standards.' },
+    { year: '2003', title: 'New Markets', desc: 'Expanded beyond our home state with our first major order from a new Indian region.' },
+    { year: '2008', title: 'ISO Certification', desc: 'Achieved ISO 9001 certification marking our commitment to national quality management standards.' },
     { year: '2012', title: 'Facility Expansion', desc: 'Doubled our manufacturing capacity with a state-of-the-art new production facility and modern equipment.' },
-    { year: '2016', title: 'Global Reach', desc: 'Crossed the milestone of exporting to 25+ countries with a dedicated global logistics and documentation team.' },
+    { year: '2016', title: 'Pan-India Reach', desc: 'Crossed the milestone of serving 15+ Indian states with a dedicated logistics and documentation team.' },
     { year: '2020', title: 'Product Range Expansion', desc: 'Launched complete copper products range including sheets, tubes, coils and precision components.' },
-    { year: '2024', title: '40+ Countries', desc: 'Today Midland serves 500+ clients across 40+ countries as a globally recognized premium copper manufacturer.' }
+    { year: '2024', title: '15+ States', desc: "Today Midland serves 500+ clients across 15+ Indian states as India's trusted premium copper manufacturer." }
   ];
 
   return (
@@ -295,7 +295,7 @@ export default function About() {
 
             {/* Paragraph Text */}
             <p className="text-gray-400 text-base sm:text-lg leading-relaxed max-w-sm font-body animate-fade-up-600 font-light" id="about-hero-paragraph">
-              From a single workshop to a globally recognized copper manufacturer — our journey has been defined by relentless pursuit of quality.
+              From a single workshop to India's trusted copper manufacturer — our journey has been defined by relentless pursuit of quality.
             </p>
           </div>
 
@@ -329,11 +329,11 @@ export default function About() {
           </span>
           
           <h2 className="font-display font-black text-3xl sm:text-4xl text-[#111111] leading-tight max-w-4xl mx-auto uppercase tracking-wide" id="intro-editorial-head">
-            Midland Cable Manufacture is a premium global copper products manufacturer delivering quality, precision and reliability to industries across 40+ countries worldwide.
+            Midland Cable Manufacture is India's premium copper products manufacturer delivering quality, precision and reliability to industries across 15+ Indian states.
           </h2>
 
           <p className="text-gray-500 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto font-body font-light" id="intro-descriptive-body">
-            Founded with a vision to set new standards in copper manufacturing, we have grown into a trusted partner for electrical contractors, construction companies, automotive manufacturers, energy providers and infrastructure developers around the world.
+            Founded with a vision to set new standards in copper manufacturing, we have grown into a trusted partner for electrical contractors, construction companies, automotive manufacturers, energy providers and infrastructure developers across India.
           </p>
 
           <div className="w-16 h-px bg-[#B08D57] mx-auto mt-12" id="intro-closing-line" />
@@ -390,14 +390,14 @@ export default function About() {
             </span>
             
             <h2 className="font-display font-black text-4xl text-[#111111] leading-tight mt-4 uppercase tracking-tight">
-              Powering the World with Premium Copper
+              Powering India with Premium Copper
             </h2>
 
             <div className="w-12 h-1 bg-[#B08D57] my-8" id="row-1-divider" />
 
             <div className="space-y-4 text-gray-600 leading-relaxed font-body text-sm sm:text-base font-light" id="row-1-paragraphs">
               <p>
-                Our mission is to be the most trusted copper manufacturer in the world by delivering products that exceed international quality standards on every order.
+                Our mission is to be the most trusted copper manufacturer in India by delivering products that exceed national quality standards on every order.
               </p>
               <p>
                 We achieve this through continuous investment in technology, people and processes — ensuring every copper rod, wire, sheet, tube, coil and component that leaves our facility is perfect.
@@ -431,13 +431,13 @@ export default function About() {
             </span>
 
             <h2 className="font-display font-black text-4xl text-white leading-tight mt-4 uppercase tracking-tight">
-              A Global Leader in Copper Innovation
+              India's Leader in Copper Innovation
             </h2>
 
             <div className="w-12 h-1 bg-[#B08D57] my-8" id="row-2-divider" />
 
             <p className="text-gray-300 leading-relaxed font-body text-sm sm:text-base font-light mb-10">
-              Our vision is to be the global benchmark for copper manufacturing excellence — setting standards that others aspire to and building partnerships that last decades.
+              Our vision is to be the national benchmark for copper manufacturing excellence — setting standards that others aspire to and building partnerships that last decades.
             </p>
 
             {/* Vision points grid */}
@@ -479,10 +479,10 @@ export default function About() {
                 </div>
                 <div>
                   <h4 className="text-white font-display font-bold text-sm uppercase tracking-wide">
-                    Global Partnerships
+                    Lasting Partnerships
                   </h4>
                   <p className="text-gray-400 text-xs mt-1 font-body">
-                    Creating long-term value for clients across every continent.
+                    Creating long-term value for clients across India.
                   </p>
                 </div>
               </div>
@@ -493,7 +493,7 @@ export default function About() {
           <div className="relative h-[400px] lg:h-auto min-h-[500px] order-1 lg:order-2" id="row-2-image">
             <img 
               src="/images/our-vision.webp" 
-              alt="Midland international logistics and packaging"
+              alt="Midland domestic logistics and packaging"
               className="w-full h-full object-cover absolute inset-0"
               referrerPolicy="no-referrer"
             />
@@ -568,10 +568,10 @@ export default function About() {
                 <Globe className="w-10 h-10 stroke-[1.5]" />
               </div>
               <h3 className="font-display font-bold text-xl text-[#111111] uppercase tracking-wide mb-3">
-                Global Thinking
+                Nationwide Excellence
               </h3>
               <p className="text-gray-500 text-sm leading-relaxed font-body">
-                We think globally in every decision — from product design to delivery and customer support.
+                We prioritize India's industrial growth in every decision — from product design to delivery and customer support.
               </p>
             </div>
 
@@ -619,13 +619,13 @@ export default function About() {
               </span>
 
               <h2 className="font-display font-black text-4xl text-white leading-tight uppercase tracking-tight">
-                World-Class Facility. Precision Engineering.
+                State-of-the-Art Facility. Precision Engineering.
               </h2>
 
               <div className="w-12 h-1 bg-[#B08D57] my-8" id="m-strength-divider" />
 
               <p className="text-gray-400 leading-relaxed font-body text-base font-light">
-                Our manufacturing facility is equipped with state-of-the-art copper processing machinery capable of producing the full range of copper products to exact international specifications.
+                Our manufacturing facility is equipped with state-of-the-art copper processing machinery capable of producing the full range of copper products to exact Indian Standards (IS) specifications.
               </p>
 
               {/* Incremental stateful inline statistics rows */}
@@ -754,7 +754,7 @@ export default function About() {
                 Head of Quality
               </p>
               <p className="text-gray-500 text-sm leading-relaxed mt-4 max-w-xs mx-auto font-body font-light">
-                Expert in international copper standards with 15 years of quality management experience.
+                Expert in Indian copper standards (IS/ASTM compliance) with 15 years of quality management experience.
               </p>
             </div>
 
@@ -772,10 +772,10 @@ export default function About() {
                 David Chen
               </h3>
               <p className="text-[#B08D57] text-sm font-medium uppercase tracking-wider mt-1 font-body">
-                Global Sales Director
+                Sales Director
               </p>
               <p className="text-gray-500 text-sm leading-relaxed mt-4 max-w-xs mx-auto font-body font-light">
-                Managing international client relationships across 40+ countries for over 12 years.
+                Managing client relationships across India's manufacturing hubs for over 12 years.
               </p>
             </div>
 
@@ -792,7 +792,7 @@ export default function About() {
               CERTIFICATIONS
             </span>
             <h2 className="font-display font-black text-4xl text-[#111111] uppercase tracking-tight">
-              Internationally Certified
+              Nationally Certified
             </h2>
           </div>
 
@@ -873,7 +873,7 @@ export default function About() {
           </h2>
 
           <p className="text-gray-300 text-base sm:text-lg max-w-xl mx-auto leading-relaxed font-body font-light">
-            Join 500+ global clients who trust Midland for premium copper products and unmatched quality.
+            Join 500+ Indian clients who trust Midland for premium copper products and unmatched quality.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8" id="final-cta-buttons">

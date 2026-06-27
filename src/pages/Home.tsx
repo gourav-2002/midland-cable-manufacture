@@ -425,7 +425,7 @@ export default function Home({
     {
       icon: <Award className="w-6 h-6 text-bronze-primary" />,
       title: "ISO 9001 & 14001 Standards",
-      desc: "Our processing cells operate strictly under standard global guidelines for total quality assurance and eco-sensitive manufacturing compliance."
+      desc: "Our processing cells operate strictly under Indian Standards (IS) guidelines for total quality assurance and eco-sensitive manufacturing compliance."
     },
     {
       icon: <RefreshCw className="w-6 h-6 text-bronze-primary" />,
@@ -434,8 +434,8 @@ export default function Home({
     },
     {
       icon: <Milestone className="w-6 h-6 text-bronze-primary" />,
-      title: "Global Supply Corridors",
-      desc: "Operating responsive custom packaging logistics covering North America, Central Europe, and rapid East Asian trade gateways."
+      title: "Pan-India Supply Network",
+      desc: "Operating responsive custom packaging logistics covering major industrial hubs and trade gateways across 15+ Indian states."
     }
   ];
 
@@ -665,10 +665,10 @@ export default function Home({
 
               <div className="space-y-4 text-sm text-gray-600 leading-relaxed font-sans font-light">
                 <p>
-                  With decades of expertise in the copper metallurgy industry, Midland Cable Manufacture is committed to producing high-quality copper products and cables that meet rigorous international specifications.
+                  With decades of expertise in the copper metallurgy industry, Midland Cable Manufacture is committed to producing high-quality copper products and cables that meet rigorous Indian Standards (IS) specifications.
                 </p>
                 <p>
-                  Our relentless focus on technical innovation, precision engineering, and complete customer satisfaction has helped us expand from a regional drawing facility into a preferred primary partner for major utilities, infrastructure creators, and heavy industrial groups globally.
+                  Our relentless focus on technical innovation, precision engineering, and complete customer satisfaction has helped us expand from a regional drawing facility into a preferred primary partner for major utilities, infrastructure creators, and heavy industrial groups across India.
                 </p>
               </div>
 
@@ -756,9 +756,9 @@ export default function Home({
 
                 <div className="relative">
                   <div className="absolute -left-[31px] top-1.5 w-4.5 h-4.5 rounded-full bg-bronze-primary border-4 border-white"></div>
-                  <h4 className="font-display text-base font-bold text-industrial-black">2010 — International Expansion</h4>
+                  <h4 className="font-display text-base font-bold text-industrial-black">2010 — Nationwide Expansion</h4>
                   <p className="text-xs text-gray-500 leading-relaxed font-sans mt-1">
-                    Pioneered Oxygen-free high-conductivity electrolytic copper sheets and vacuum draw. Dispatched initial freights to Europe.
+                    Pioneered Oxygen-free high-conductivity electrolytic copper sheets and vacuum draw. Dispatched initial freights across India.
                   </p>
                 </div>
 
@@ -855,7 +855,7 @@ export default function Home({
                 <Package className="w-7 h-7 text-[#B08D57] mx-auto mb-4" />
                 <h4 className="font-display font-bold text-[#111111] text-base mb-2">Raw Material</h4>
                 <p className="text-gray-500 text-xs leading-relaxed font-body max-w-[140px] mx-auto">
-                  Grade A copper cathodes sourced from certified global suppliers
+                  Grade A copper cathodes sourced from certified Indian suppliers
                 </p>
               </div>
 
@@ -901,9 +901,9 @@ export default function Home({
                   05
                 </div>
                 <Truck className="w-7 h-7 text-[#B08D57] mx-auto mb-4" />
-                <h4 className="font-display font-bold text-[#111111] text-base mb-2">Global Dispatch</h4>
+                <h4 className="font-display font-bold text-[#111111] text-base mb-2">Pan-India Dispatch</h4>
                 <p className="text-gray-500 text-xs leading-relaxed font-body max-w-[140px] mx-auto">
-                  Professional packaging and worldwide delivery with full docs
+                  Professional packaging and India-wide delivery with full docs
                 </p>
               </div>
             </div>
@@ -1402,7 +1402,7 @@ export default function Home({
                       State-of-the-Art Manufacturing Facility
                     </h3>
                     <p className="text-gray-500 text-sm leading-relaxed font-body font-light max-w-lg">
-                      Our modern production facility is equipped with the latest copper processing technology capable of producing 50,000+ metric tonnes annually across 6 product categories to exact international specifications.
+                      Our modern production facility is equipped with the latest copper processing technology capable of producing 50,000+ metric tonnes annually across 6 product categories to exact Indian Standards (IS) specifications.
                     </p>
                   </div>
                 </div>
@@ -1473,7 +1473,7 @@ export default function Home({
                   <div className="text-[#B08D57] font-serif text-8xl leading-none -mt-4 mb-2 opacity-20 select-none">“</div>
                   <div className="flex text-[#B08D57] text-sm mb-6 select-none">★★★★★</div>
                   <p className="text-gray-600 text-[15px] leading-relaxed italic font-body mb-8">
-                    "We source all our copper rods and wires exclusively from Midland. The material quality consistently meets our strict international specifications and their export documentation is always perfect."
+                    "We source all our copper rods and wires exclusively from Midland. The material quality consistently meets our strict Indian Standards (IS) specifications and their delivery documentation is always perfect."
                   </p>
                 </div>
                 <div>
@@ -1517,7 +1517,7 @@ export default function Home({
         </section>
       </div>
 
-      {/* ================= NEW SECTION 5 - GLOBAL PRESENCE ================= */}
+      {/* ================= NEW SECTION 5 - PAN-INDIA PRESENCE ================= */}
       <div ref={section5Ref} className="reveal font-body" id="global-presence">
         <section className="bg-[#111111] py-24">
           <div className="max-w-6xl mx-auto px-6">
@@ -1526,7 +1526,7 @@ export default function Home({
               <div className="lg:col-span-6 space-y-6">
                 <div>
                   <span className="text-xs tracking-[0.3em] uppercase text-[#B08D57] font-medium mb-4 block">
-                    GLOBAL PRESENCE
+                    PAN-INDIA PRESENCE
                   </span>
                   <h2 className="font-display font-black text-4xl text-white leading-tight mb-6">
                     Serving Industries Across 15+ States
@@ -1535,28 +1535,25 @@ export default function Home({
                 </div>
 
                 <p className="text-gray-400 leading-relaxed font-body font-light text-sm sm:text-base">
-                  From our manufacturing facility we ship premium copper products to clients across Asia, Middle East, Europe, Africa and the Americas. Our global logistics network ensures reliable on-time delivery with complete documentation to any destination.
+                  From our manufacturing facility we ship premium copper products to clients across North, South, East and West India. Our pan-India logistics network ensures reliable on-time delivery with complete documentation to any destination.
                 </p>
 
                 {/* Region tags */}
                 <div className="flex flex-wrap gap-3 pt-2">
                   <span className="border border-white/20 text-gray-300 px-4 py-2 text-xs font-body hover:border-[#B08D57] hover:text-[#B08D57] transition-all duration-300 rounded-sm select-none">
-                    🌏 South Asia
+                    🧭 North India
                   </span>
                   <span className="border border-white/20 text-gray-300 px-4 py-2 text-xs font-body hover:border-[#B08D57] hover:text-[#B08D57] transition-all duration-300 rounded-sm select-none">
-                    🌍 Middle East
+                    🧭 South India
                   </span>
                   <span className="border border-white/20 text-gray-300 px-3.5 py-2 text-xs font-body hover:border-[#B08D57] hover:text-[#B08D57] transition-all duration-300 rounded-sm select-none">
-                    🌍 Africa
+                    🧭 West India
                   </span>
                   <span className="border border-white/20 text-gray-300 px-3.5 py-2 text-xs font-body hover:border-[#B08D57] hover:text-[#B08D57] transition-all duration-300 rounded-sm select-none">
-                    🌍 Europe
+                    🧭 East India
                   </span>
                   <span className="border border-white/20 text-gray-300 px-3.5 py-2 text-xs font-body hover:border-[#B08D57] hover:text-[#B08D57] transition-all duration-300 rounded-sm select-none">
-                    🌎 Americas
-                  </span>
-                  <span className="border border-white/20 text-gray-300 px-3.5 py-2 text-xs font-body hover:border-[#B08D57] hover:text-[#B08D57] transition-all duration-300 rounded-sm select-none">
-                    🌏 Southeast Asia
+                    🧭 Central India
                   </span>
                 </div>
 
@@ -1568,7 +1565,7 @@ export default function Home({
                   </div>
                   <div className="bg-[#1F1F1F] border border-white/10 p-5 rounded-sm">
                     <div className="font-display font-black text-3xl text-[#B08D57]">500+</div>
-                    <div className="text-gray-500 text-xs font-body mt-2">Global Clients</div>
+                    <div className="text-gray-500 text-xs font-body mt-2">Indian Clients</div>
                   </div>
                   <div className="bg-[#1F1F1F] border border-white/10 p-5 rounded-sm">
                     <div className="font-display font-black text-3xl text-[#B08D57]">98.5%</div>
@@ -1585,87 +1582,82 @@ export default function Home({
               <div className="lg:col-span-6">
                 <div className="bg-[#1F1F1F] border border-white/10 p-8 flex flex-col justify-center min-h-[400px] relative overflow-hidden rounded-sm w-full h-full">
 
-                  {/* SVG Simplified Continent Map */}
-                  <svg viewBox="0 0 1000 500" className="w-full h-full opacity-35 pointer-events-none select-none z-0">
-                    <path d="M50 150 L100 120 L150 100 L200 90 L250 110 L300 120 L350 130 L380 180 L350 250 L300 280 L250 250 L200 230 L150 240 L100 220 Z" stroke="#B08D57" strokeWidth="1.5" strokeDasharray="3 4" fill="#B08D57" fillOpacity="0.08" />
-                    <path d="M250 260 L280 280 L300 320 L280 380 L250 450 L240 470 L220 440 L210 380 L200 320 L230 280 Z" stroke="#B08D57" strokeWidth="1.5" strokeDasharray="3 4" fill="#B08D57" fillOpacity="0.08" />
-                    <path d="M400 100 L450 80 L500 70 L600 60 L700 70 L800 80 L850 100 L800 180 L750 200 L700 220 L650 200 L600 240 L550 250 L500 250 L450 220 L400 180 Z" stroke="#B08D57" strokeWidth="1.5" strokeDasharray="3 4" fill="#B08D57" fillOpacity="0.08" />
-                    <path d="M420 230 L480 220 L530 250 L560 280 L540 330 L520 380 L480 430 L460 410 L440 350 L400 300 Z" stroke="#B08D57" strokeWidth="1.5" strokeDasharray="3 4" fill="#B08D57" fillOpacity="0.08" />
-                    <path d="M580 230 L620 220 L660 250 L700 260 L680 300 L650 320 L600 300 Z" stroke="#B08D57" strokeWidth="1.5" strokeDasharray="3 4" fill="#B08D57" fillOpacity="0.08" />
-                    <path d="M720 350 L780 340 L820 360 L800 420 L760 410 L730 380 Z" stroke="#B08D57" strokeWidth="1.5" strokeDasharray="3 4" fill="#B08D57" fillOpacity="0.08" />
+                  {/* SVG Simplified India Outline */}
+                  <svg viewBox="0 0 500 500" className="w-full h-full opacity-35 pointer-events-none select-none z-0">
+                    <path d="M220 60 L260 55 L300 70 L320 110 L360 130 L380 170 L370 210 L390 240 L380 280 L350 300 L340 340 L320 380 L300 410 L280 440 L260 410 L250 370 L230 340 L210 360 L190 330 L200 290 L180 260 L170 220 L190 190 L180 150 L200 110 L210 80 Z" stroke="#B08D57" strokeWidth="1.5" strokeDasharray="3 4" fill="#B08D57" fillOpacity="0.08" />
                   </svg>
 
-                  {/* Animated Pulse Dots */}
+                  {/* Animated Pulse Dots - Major Indian Cities */}
 
-                  {/* India */}
-                  <div className="absolute top-[40%] left-[62%] group cursor-pointer" id="dot-india">
+                  {/* Delhi */}
+                  <div className="absolute top-[22%] left-[48%] group cursor-pointer" id="dot-delhi">
                     <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
                     <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
                     <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      India
+                      Delhi
                     </div>
                   </div>
 
-                  {/* UAE */}
-                  <div className="absolute top-[38%] left-[57%] group cursor-pointer" id="dot-uae">
+                  {/* Mumbai */}
+                  <div className="absolute top-[52%] left-[36%] group cursor-pointer" id="dot-mumbai">
                     <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
                     <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
                     <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      UAE
+                      Mumbai
                     </div>
                   </div>
 
-                  {/* Germany */}
-                  <div className="absolute top-[25%] left-[48%] group cursor-pointer" id="dot-germany">
+                  {/* Ahmedabad */}
+                  <div className="absolute top-[42%] left-[35%] group cursor-pointer" id="dot-ahmedabad">
                     <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
                     <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
                     <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      Germany
+                      Ahmedabad
                     </div>
                   </div>
 
-                  {/* UK */}
-                  <div className="absolute top-[22%] left-[45%] group cursor-pointer" id="dot-uk">
+                  {/* Bengaluru */}
+                  <div className="absolute top-[72%] left-[45%] group cursor-pointer" id="dot-bengaluru">
                     <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
                     <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
                     <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      United Kingdom
+                      Bengaluru
                     </div>
                   </div>
 
-                  {/* USA */}
-                  <div className="absolute top-[32%] left-[20%] group cursor-pointer" id="dot-usa">
+                  {/* Chennai */}
+                  <div className="absolute top-[78%] left-[52%] group cursor-pointer" id="dot-chennai">
                     <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
                     <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
                     <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      United States
+                      Chennai
                     </div>
                   </div>
 
-                  {/* Singapore */}
-                  <div className="absolute top-[52%] left-[72%] group cursor-pointer" id="dot-singapore">
+                  {/* Kolkata */}
+                  <div className="absolute top-[48%] left-[62%] group cursor-pointer" id="dot-kolkata">
                     <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
                     <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
                     <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      Singapore
+                      Kolkata
                     </div>
                   </div>
 
-                  {/* Australia */}
-                  <div className="absolute top-[65%] left-[75%] group cursor-pointer" id="dot-australia">
+                  {/* Hyderabad */}
+                  <div className="absolute top-[64%] left-[50%] group cursor-pointer" id="dot-hyderabad">
                     <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
                     <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
                     <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      Australia
+                      Hyderabad
                     </div>
                   </div>
 
-                  {/* Nigeria */}
-                  <div className="absolute top-[48%] left-[47%] group cursor-pointer" id="dot-nigeria">
+                  {/* Pune */}
+                  <div className="absolute top-[58%] left-[40%] group cursor-pointer" id="dot-pune">
                     <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
                     <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
                     <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      Nigeria
+                      Pune
                     </div>
                   </div>
 
@@ -1831,7 +1823,7 @@ export default function Home({
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8 md:gap-12">
             <div className="space-y-4 max-w-2xl text-center lg:text-left">
               <span className="text-[10px] font-mono uppercase tracking-[0.3em] text-bronze-primary font-bold block">
-                GLOBAL PARTNERSHIPS
+                PAN-INDIA PARTNERSHIPS
               </span>
               <h2 className="font-display font-bold text-3xl sm:text-4xl text-white uppercase leading-tight">
                 Let's Build a Stronger Tomorrow, <br className="hidden sm:inline" />
@@ -2090,7 +2082,7 @@ export default function Home({
                             </div>
                           </div>
                           <div className="text-right">
-                            <span className="text-sm text-gray-400 block font-mono">GLOBAL SURCHARGE EST.</span>
+                            <span className="text-sm text-gray-400 block font-mono">MARKET RATE EST.</span>
                             <span className="text-xs bg-bronze-primary/20 text-bronze-primary font-semibold px-2 py-1 rounded-[4px]">
                               $ {USD_PER_KG} USD/kg index
                             </span>
@@ -2284,7 +2276,7 @@ export default function Home({
                     </div>
 
                     <p className="text-[11px] text-gray-400 max-w-xs mx-auto leading-normal font-sans">
-                      A metallurgical sales engineer from our international logistics desk will call you at <span className="font-semibold">{quotePhone}</span> within 2 hours.
+                      A metallurgical sales engineer from our logistics desk will call you at <span className="font-semibold">{quotePhone}</span> within 2 hours.
                     </p>
 
                     <div className="pt-4 max-w-xs mx-auto">

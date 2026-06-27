@@ -345,7 +345,7 @@ export default function Blog() {
               Ready to Partner with Midland?
             </h2>
             <p className="text-white/80 mt-2 font-body text-base">
-              Premium copper products for industries worldwide.
+              Premium copper products for industries across India.
             </p>
           </div>
 

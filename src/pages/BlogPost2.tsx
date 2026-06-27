@@ -449,7 +449,7 @@ export default function BlogPost2() {
                 Explore Our Products
               </h3>
               <p className="text-gray-400 text-sm font-body leading-relaxed mb-6">
-                Premium copper rods, wires, sheets, tubes, coils and components for industrial applications worldwide.
+                Premium copper rods, wires, sheets, tubes, coils and components for industrial applications across India.
               </p>
               <div className="space-y-1">
                 {[

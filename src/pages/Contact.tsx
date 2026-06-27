@@ -157,17 +157,17 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Card 4: Global Presence */}
+            {/* Card 4: Pan-India Presence */}
             <div className="p-8 flex flex-col items-start space-y-4 bg-white" id="card-global-presence">
               <div className="p-3 bg-gray-50 text-[#B08D57] rounded-none">
                 <Globe className="w-[28px] h-[28px] stroke-[1.5]" />
               </div>
               <h3 className="font-display font-bold text-[#111111] text-base uppercase tracking-wider">
-                Global Presence
+                Pan-India Presence
               </h3>
               <div className="text-gray-600 text-sm leading-relaxed mt-3 font-body">
-                <p className="font-semibold text-gray-800">Serving 50+ Countries</p>
-                <p className="text-gray-500 mt-1">Worldwide</p>
+                <p className="font-semibold text-gray-800">Serving 15+ States</p>
+                <p className="text-gray-500 mt-1">Across India</p>
               </div>
             </div>
 
@@ -410,23 +410,23 @@ export default function Contact() {
 
                 {/* Office 3 */}
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 p-4 border border-gray-100 hover:border-[#B08D57] transition-all duration-300 bg-white shadow-sm hover:shadow" id="office-export-terminal">
-                  <img 
-                    src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=200" 
-                    alt="Export Division location" 
+                  <img
+                    src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=200"
+                    alt="Sales and Logistics Office location"
                     className="w-20 h-20 object-cover flex-shrink-0"
                   />
                   <div className="space-y-1 flex-1 font-body">
                     <h4 className="font-display font-bold text-[#111111] text-base uppercase tracking-wide">
-                      Export Division
+                      Sales &amp; Logistics Office
                     </h4>
                     <p className="text-gray-500 text-xs leading-relaxed">
-                      78 Export Terminal, Port City - 00000, Country
+                      78 Logistics Park, City - 00000, India
                     </p>
                     <p className="text-gray-500 text-xs font-mono">
                       Phone: +1 (234) 567 8902
                     </p>
                     <p className="text-gray-500 text-xs font-mono">
-                      Email: export@midlandcable.com
+                      Email: sales@midlandcable.com
                     </p>
                   </div>
                   <ArrowRight className="w-5 h-5 text-[#B08D57] shrink-0 ml-auto hidden sm:block" />

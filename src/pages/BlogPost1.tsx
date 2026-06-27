@@ -254,7 +254,7 @@ export default function BlogPost1() {
                 What This Means for Midland Clients
               </h2>
               <p>
-                At Midland we have been monitoring these market developments closely and have taken proactive steps to protect our clients from supply disruptions and price volatility. We have expanded our raw material inventory positions, diversified our copper cathode sourcing and increased our production capacity to ensure we can meet growing demand from our clients across 40 countries.
+                At Midland we have been monitoring these market developments closely and have taken proactive steps to protect our clients from supply disruptions and price volatility. We have expanded our raw material inventory positions, diversified our copper cathode sourcing and increased our production capacity to ensure we can meet growing demand from our clients across 15+ Indian states.
               </p>
               <p>
                 We strongly recommend that procurement managers and operations teams review their copper supply strategy for 2025. The clients who will be best positioned are those who treat copper procurement as a strategic function — not a transactional afterthought.
@@ -361,7 +361,7 @@ export default function BlogPost1() {
                 Explore Our Products
               </h3>
               <p className="text-gray-400 text-sm font-body leading-relaxed mb-6">
-                Premium copper rods, wires, sheets, tubes, coils and components for industrial applications worldwide.
+                Premium copper rods, wires, sheets, tubes, coils and components for industrial applications across India.
               </p>
               <div className="space-y-1">
                 {[

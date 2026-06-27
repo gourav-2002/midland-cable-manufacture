@@ -6,7 +6,7 @@ export const HERO_SLIDES = [
     tagline: 'BUILT ON TRUST.',
     titleLine1: 'DRIVEN BY',
     titleLine2: 'EXCELLENCE.',
-    subtext: 'Midland Cable Manufacture is a globally recognized manufacturer of premium copper products and cables, delivering quality, reliability and performance across the world.',
+    subtext: "Midland Cable Manufacture is India's trusted manufacturer of premium copper products and cables, delivering quality, reliability and performance across India.",
   },
   {
     image: '/images/midland-facotory.webp',
@@ -17,7 +17,7 @@ export const HERO_SLIDES = [
   },
   {
     image: '/images/copper_wires.png',
-    tagline: 'GLOBAL DISTRIBUTION READY.',
+    tagline: 'PAN-INDIA DISTRIBUTION READY.',
     titleLine1: 'PRECISION',
     titleLine2: 'COMMITTED.',
     subtext: 'From bespoke custom specifications to rapid high-volume distributions, Midland serves 15+ states with verified certifications compliance.',
@@ -40,7 +40,7 @@ export const TRUST_ITEMS = [
   {
     id: 'global-presence',
     iconName: 'Globe',
-    title: 'Global Presence',
+    title: 'Pan-India Presence',
     description: 'Serving customers in 15+ states.'
   },
   {
@@ -64,7 +64,7 @@ export const STATS: StatItem[] = [
     iconName: 'Users',
     number: '500+',
     label: 'Happy Clients',
-    description: 'Trusted partner for global power grids and automotive suppliers.'
+    description: "Trusted partner for India's power grids and automotive suppliers."
   },
   {
     id: 'countries',
@@ -138,7 +138,7 @@ export const PRODUCTS: Product[] = [
       'Tight gauge and width tolerances throughout the coil',
       'Smooth, burr-free edges for automated winding lines',
       'Consistent temper across the full coil length',
-      'Moisture-sealed packaging for export shipments'
+      'Moisture-sealed packaging for domestic shipments'
     ],
     specs: [
       { label: 'Width Range', value: '8mm - 350mm' },

@@ -330,7 +330,7 @@ export default function Products() {
             <div className="w-16 h-px bg-[#B08D57] my-8 animate-fade-up-400" id="hero-copper-separator" />
 
             <p className="text-gray-300 text-base sm:text-lg leading-relaxed max-w-lg font-body font-light animate-fade-up-500 mb-10" id="hero-brief-subtext">
-              Six categories of precision-engineered copper products meeting the highest international standards — crafted for industries that demand the best.
+              Six categories of precision-engineered copper products meeting the highest national standards — crafted for industries that demand the best.
             </p>
 
             <div className="flex gap-12 animate-fade-up-600" id="hero-mini-statistics-deck">
@@ -672,7 +672,7 @@ export default function Products() {
               </div>
               <Globe className="w-9 h-9 text-[#B08D57] mx-auto mt-4" />
               <h3 className="text-white font-display font-bold text-lg mt-4 uppercase tracking-wide">
-                Global Standards
+                Certified Standards
               </h3>
               <p className="text-gray-400 text-xs leading-relaxed font-body mt-2 max-w-[200px] mx-auto font-light">
                 ASTM, BS and IS certified across all product lines.

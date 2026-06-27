@@ -89,10 +89,10 @@ const PRIVACY_SECTIONS: PolicySection[] = [
   },
   {
     id: "international-transfers",
-    title: "9. International Transfers",
-    shortTitle: "International Transfers",
+    title: "9. Data Processing & Storage",
+    shortTitle: "Data Processing & Storage",
     content: [
-      "Midland Cable Manufacture operates globally and your information may be transferred to and processed in countries other than your own. We ensure all international transfers comply with applicable data protection laws and that appropriate safeguards are in place to protect your information."
+      "Midland Cable Manufacture operates within India and your information is processed and stored domestically. If we engage any third-party service providers located outside India, we ensure such transfers comply with applicable data protection laws and that appropriate safeguards are in place to protect your information."
     ]
   },
   {

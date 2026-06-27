@@ -13,22 +13,22 @@ const FAQ_DATA: FAQItem[] = [
   {
     category: "General",
     question: "What is Midland Cable Manufacture?",
-    answer: "Midland Cable Manufacture is a globally recognized premium manufacturer of copper products and cables. We serve industries worldwide including electrical, construction, automotive, energy, infrastructure, HVAC and telecommunications."
+    answer: "Midland Cable Manufacture is India's trusted premium manufacturer of copper products and cables. We serve industries across India including electrical, construction, automotive, energy, infrastructure, HVAC and telecommunications."
   },
   {
     category: "General",
     question: "Where is Midland Cable Manufacture located?",
-    answer: "Our manufacturing facility is located at 88 Industrial Road, Midland. We serve clients across 40+ countries worldwide."
+    answer: "Our manufacturing facility is located at 88 Industrial Road, Midland. We serve clients across 15+ Indian states."
   },
   {
     category: "General",
     question: "How many years of experience does Midland have?",
-    answer: "Midland Cable Manufacture has over 25 years of experience in the copper manufacturing industry, serving 500+ happy clients globally."
+    answer: "Midland Cable Manufacture has over 25 years of experience in the copper manufacturing industry, serving 500+ happy clients across India."
   },
   {
     category: "General",
     question: "Is Midland Cable Manufacture ISO certified?",
-    answer: "Yes, Midland Cable Manufacture maintains strict quality certifications and complies with international manufacturing standards to ensure premium quality across all our products."
+    answer: "Yes, Midland Cable Manufacture maintains strict quality certifications and complies with national manufacturing standards to ensure premium quality across all our products."
   },
 
   // PRODUCTS
@@ -40,7 +40,7 @@ const FAQ_DATA: FAQItem[] = [
   {
     category: "Products",
     question: "What grades of copper do you use?",
-    answer: "We use Grade A high conductivity electrolytic copper that meets international standards for purity and performance. All our products are tested for conductivity, tensile strength, and dimensional accuracy."
+    answer: "We use Grade A high conductivity electrolytic copper that meets Indian Standards (IS) for purity and performance. All our products are tested for conductivity, tensile strength, and dimensional accuracy."
   },
   {
     category: "Products",
@@ -78,18 +78,18 @@ const FAQ_DATA: FAQItem[] = [
   // SHIPPING
   {
     category: "Shipping",
-    question: "Do you ship internationally?",
-    answer: "Yes, we ship to 40+ countries worldwide. We work with trusted freight partners to ensure safe and timely delivery of all copper products globally."
+    question: "Do you ship across India?",
+    answer: "Yes, we ship to 15+ Indian states. We work with trusted freight partners to ensure safe and timely delivery of all copper products nationwide."
   },
   {
     category: "Shipping",
     question: "What shipping methods do you use?",
-    answer: "We use sea freight for large bulk orders and air freight for smaller urgent shipments. All shipments are fully insured and tracked. We provide complete shipping documentation for customs clearance."
+    answer: "We use road and rail freight for large bulk orders and dedicated courier for smaller urgent shipments. All shipments are fully insured and tracked, with complete delivery documentation provided."
   },
   {
     category: "Shipping",
-    question: "Who is responsible for customs and import duties?",
-    answer: "Import duties, taxes, and customs clearance fees are the responsibility of the buyer unless otherwise agreed in the purchase contract. We provide all necessary export documentation to assist with customs clearance."
+    question: "Who is responsible for freight and handling charges?",
+    answer: "Freight and handling charges are agreed upon at the time of order confirmation, as per the purchase contract. We provide all necessary invoicing and delivery documentation with every shipment."
   },
   {
     category: "Shipping",
@@ -101,7 +101,7 @@ const FAQ_DATA: FAQItem[] = [
   {
     category: "Quality",
     question: "What quality standards do your products meet?",
-    answer: "Our copper products meet international standards including ASTM, BS, and IS specifications. We maintain 100% quality assurance through rigorous testing at every stage of the manufacturing process."
+    answer: "Our copper products meet national and international material standards including ASTM, BS, and IS specifications. We maintain 100% quality assurance through rigorous testing at every stage of the manufacturing process."
   },
   {
     category: "Quality",
@@ -119,30 +119,30 @@ const FAQ_DATA: FAQItem[] = [
     answer: "We stand behind the quality of our products. If you receive a defective product, contact us within 7 days of receipt with photos and details. We will investigate and provide a replacement or full refund as appropriate."
   },
 
-  // EXPORT & TRADE
+  // PAYMENTS & LOGISTICS
   {
-    category: "Export & Trade",
-    question: "Which countries do you export to?",
-    answer: "We export to 40+ countries across Asia, Middle East, Europe, Africa, and Americas. Our global logistics network ensures reliable delivery worldwide."
+    category: "Payments & Logistics",
+    question: "Which Indian states do you supply to?",
+    answer: "We supply to 15+ Indian states across North, South, East and West India. Our pan-India logistics network ensures reliable delivery nationwide."
   },
   {
-    category: "Export & Trade",
-    question: "Do you have experience with export documentation?",
-    answer: "Yes, our export team handles all necessary documentation including Certificate of Origin, Packing List, Commercial Invoice, Bill of Lading, and any country-specific certificates required."
+    category: "Payments & Logistics",
+    question: "Do you provide GST invoices and delivery documentation?",
+    answer: "Yes, our logistics team handles all necessary documentation including GST invoices, packing lists, and delivery challans for every shipment."
   },
   {
-    category: "Export & Trade",
-    question: "Can you work with Letters of Credit (LC)?",
-    answer: "Yes, we accept Letters of Credit from reputed banks as a payment method for international orders. We also accept T/T bank transfers and other agreed payment terms for established clients."
+    category: "Payments & Logistics",
+    question: "What payment methods do you accept?",
+    answer: "We accept bank transfers (NEFT/RTGS), cheques from reputed banks, and other agreed payment terms for established clients."
   },
   {
-    category: "Export & Trade",
+    category: "Payments & Logistics",
     question: "Do you offer trade financing or credit terms?",
-    answer: "Credit terms are available for established clients with a proven track record. New clients typically start with advance payment or LC terms. Contact our finance team to discuss options."
+    answer: "Credit terms are available for established clients with a proven track record. New clients typically start with advance payment terms. Contact our finance team to discuss options."
   }
 ];
 
-const CATEGORIES = ["All", "General", "Products", "Ordering", "Shipping", "Quality", "Export & Trade"];
+const CATEGORIES = ["All", "General", "Products", "Ordering", "Shipping", "Quality", "Payments & Logistics"];
 
 export default function FAQs() {
   const [activeCategory, setActiveCategory] = useState<string>("All");
@@ -291,7 +291,7 @@ export default function FAQs() {
             Ready to Work With Midland?
           </h3>
           <p className="text-gray-400 font-body text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
-            Partner with us for premium copper products and cables delivered worldwide.
+            Partner with us for premium copper products and cables delivered across India.
           </p>
           <div className="pt-4">
             <Link 

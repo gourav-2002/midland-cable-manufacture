@@ -222,7 +222,7 @@ export default function WhyMidland() {
 
           {/* Luxury Copy Subtext */}
           <p className="text-gray-300 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto font-body text-center animate-fade-up-600 font-light" id="hero-desc">
-            We don't just manufacture copper products. We engineer trust, precision, and performance for industries that power the world.
+            We don't just manufacture copper products. We engineer trust, precision, and performance for industries that power India.
           </p>
 
           {/* CTA Buttons */}
@@ -271,16 +271,16 @@ export default function WhyMidland() {
             <div className="text-center p-4" id="counter-clients">
               <StatCounter target={500} suffix="+" />
               <div className="text-white text-sm uppercase tracking-[0.2em] mt-4 font-body font-bold">
-                GLOBAL CLIENTS
+                INDIAN CLIENTS
               </div>
               <div className="w-8 h-px bg-[#B08D57] mx-auto mt-4" />
             </div>
 
             {/* Stat Item 3 */}
             <div className="text-center p-4" id="counter-countries">
-              <StatCounter target={40} suffix="+" />
+              <StatCounter target={15} suffix="+" />
               <div className="text-white text-sm uppercase tracking-[0.2em] mt-4 font-body font-bold">
-                COUNTRIES SERVED
+                STATES SERVED
               </div>
               <div className="w-8 h-px bg-[#B08D57] mx-auto mt-4" />
             </div>
@@ -314,7 +314,7 @@ export default function WhyMidland() {
 
               <div className="border-l-4 border-[#B08D57] pl-6 mt-8" id="bronze-bracket-quote">
                 <p className="text-gray-500 text-base leading-relaxed font-body">
-                  For over 25 years Midland has set the benchmark for copper manufacturing excellence across global markets.
+                  For over 25 years Midland has set the benchmark for copper manufacturing excellence across Indian industrial markets.
                 </p>
               </div>
             </div>
@@ -332,7 +332,7 @@ export default function WhyMidland() {
                     Grade A Copper Only
                   </h3>
                   <p className="text-gray-500 text-sm leading-relaxed font-body">
-                    We source exclusively Grade A electrolytic copper cathodes meeting international purity standards.
+                    We source exclusively Grade A electrolytic copper cathodes meeting Indian Standards (IS) purity requirements.
                   </p>
                 </div>
               </div>
@@ -359,10 +359,10 @@ export default function WhyMidland() {
                 </span>
                 <div className="space-y-2">
                   <h3 className="font-display font-bold text-xl text-[#111111] uppercase tracking-wide">
-                    Global Delivery Network
+                    Pan-India Delivery Network
                   </h3>
                   <p className="text-gray-500 text-sm leading-relaxed font-body">
-                    Reliable logistics to 40+ countries with full documentation and insurance.
+                    Reliable logistics across 15+ Indian states with full documentation and insurance.
                   </p>
                 </div>
               </div>
@@ -440,10 +440,10 @@ export default function WhyMidland() {
                   <Globe className="w-12 h-12 stroke-[1.5]" />
                 </div>
                 <h3 className="font-display font-bold text-2xl text-[#111111] group-hover:text-white transition-colors duration-500 uppercase tracking-wide mb-4">
-                  Global Reach
+                  Pan-India Reach
                 </h3>
                 <p className="text-gray-600 group-hover:text-gray-300 transition-colors duration-500 text-sm leading-relaxed font-body">
-                  Exporting to 40+ countries with trusted freight partners worldwide. We manage secure customs, logistics, and document dispatches perfectly.
+                  Serving 15+ Indian states with trusted freight partners. We manage secure logistics and document dispatches perfectly.
                 </p>
               </div>
               <div className="w-0 h-0.5 bg-[#B08D57] group-hover:w-full transition-all duration-700 absolute bottom-0 left-0" />
@@ -491,7 +491,7 @@ export default function WhyMidland() {
                   Competitive Value
                 </h3>
                 <p className="text-gray-600 group-hover:text-gray-300 transition-colors duration-500 text-sm leading-relaxed font-body">
-                  Direct manufacturer pricing eliminates middlemen giving you the best value without compromising quality. Bulk order discounts and structured raw copper hedging contracts available for reliable long-term partners worldwide.
+                  Direct manufacturer pricing eliminates middlemen giving you the best value without compromising quality. Bulk order discounts and structured raw copper hedging contracts available for reliable long-term partners across India.
                 </p>
               </div>
               <div className="w-0 h-0.5 bg-[#B08D57] group-hover:w-full transition-all duration-700 absolute bottom-0 left-0" />
@@ -509,10 +509,10 @@ export default function WhyMidland() {
                 </div>
                 <div className="space-y-2">
                   <h3 className="font-display font-bold text-2xl text-[#111111] group-hover:text-white transition-colors duration-500 uppercase tracking-wide">
-                    500+ Satisfied Clients Across 40+ Countries
+                    500+ Satisfied Clients Across 15+ Indian States
                   </h3>
                   <p className="text-gray-600 group-hover:text-gray-300 transition-colors duration-500 text-sm font-body">
-                    From electrical contractors to infrastructure giants, our client base spans industries and continents. Build your custom catalog with our desk today.
+                    From electrical contractors to infrastructure giants, our client base spans industries across India. Build your custom catalog with our desk today.
                   </p>
                 </div>
               </div>
@@ -633,7 +633,7 @@ export default function WhyMidland() {
                     Dispatch
                   </h4>
                   <p className="text-gray-400 text-xs leading-relaxed font-body px-4">
-                    Worldwide port delivery or secure corporate dispatch
+                    Pan-India delivery or secure corporate dispatch
                   </p>
                 </div>
               </div>
@@ -699,7 +699,7 @@ export default function WhyMidland() {
                   "
                 </span>
                 <p className="text-gray-600 text-sm md:text-base leading-relaxed italic font-body mb-8">
-                  The copper rods and wires from Midland consistently meet our strict international specifications. Their quality control process is genuinely world class.
+                  The copper rods and wires from Midland consistently meet our strict Indian Standards (IS) specifications. Their quality control process is genuinely best-in-class.
                 </p>
               </div>
               <div>
@@ -707,14 +707,14 @@ export default function WhyMidland() {
                 <div className="flex items-center justify-between gap-4 mt-auto" id="opinion-user-2">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-[#B08D57] text-white font-bold font-display flex items-center justify-center rounded-none shrink-0 text-sm">
-                      AA
+                      AS
                     </div>
                     <div>
                       <h4 className="font-display font-bold text-[#111111] text-sm tracking-wide">
-                        Ahmed Al-Rashid
+                        Anita Sharma
                       </h4>
                       <p className="text-gray-400 text-xs font-body mt-1">
-                        Procurement Head, Gulf Industries UAE
+                        Procurement Head, Shree Industries, Gujarat
                       </p>
                     </div>
                   </div>
@@ -732,7 +732,7 @@ export default function WhyMidland() {
                   "
                 </span>
                 <p className="text-gray-600 text-sm md:text-base leading-relaxed italic font-body mb-8">
-                  Midland handled all our export documentation perfectly. Products arrived on time in perfect condition. Our go-to copper manufacturer without question.
+                  Midland handled all our delivery documentation perfectly. Products arrived on time in perfect condition. Our go-to copper manufacturer without question.
                 </p>
               </div>
               <div>
@@ -740,14 +740,14 @@ export default function WhyMidland() {
                 <div className="flex items-center justify-between gap-4 mt-auto" id="opinion-user-3">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-[#B08D57] text-white font-bold font-display flex items-center justify-center rounded-none shrink-0 text-sm">
-                      TW
+                      VP
                     </div>
                     <div>
                       <h4 className="font-display font-bold text-[#111111] text-sm tracking-wide">
-                        Thomas Weber
+                        Vikram Patel
                       </h4>
                       <p className="text-gray-400 text-xs font-body mt-1">
-                        Operations Manager, EuroCopper GmbH
+                        Operations Manager, Patel Cable Industries, Maharashtra
                       </p>
                     </div>
                   </div>
@@ -780,7 +780,7 @@ export default function WhyMidland() {
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6" id="cta-inner-panel">
           <div className="inline-block" id="cta-badge-pill">
             <span className="bg-[#B08D57]/20 border border-[#B08D57]/40 text-[#B08D57] text-xs tracking-[0.3em] uppercase px-6 py-2 block font-body font-semibold rounded-none">
-              JOIN 500+ GLOBAL CLIENTS
+              JOIN 500+ INDIAN CLIENTS
             </span>
           </div>
 
