@@ -55,7 +55,7 @@ export const STATS: StatItem[] = [
   {
     id: 'exp',
     iconName: 'Trophy',
-    number: '25+',
+    number: '15+',
     label: 'Years of Experience',
     description: 'A legacy of perfection and heavy industrial mastery since 2001.'
   },

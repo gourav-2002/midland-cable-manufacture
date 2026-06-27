@@ -356,14 +356,14 @@ export default function Home({
       const progress = frame / totalFrames;
       const easeProgress = progress * (2 - progress);
 
-      setYearsCount(Math.min(25, Math.floor(easeProgress * 25)));
+      setYearsCount(Math.min(15, Math.floor(easeProgress * 15)));
       setClientsCount(Math.min(500, Math.floor(easeProgress * 500)));
       setCountriesCount(Math.min(15, Math.floor(easeProgress * 15)));
       setQualityCount(Math.min(100, Math.floor(easeProgress * 100)));
 
       if (frame >= totalFrames) {
         clearInterval(timer);
-        setYearsCount(25);
+        setYearsCount(15);
         setClientsCount(500);
         setCountriesCount(15);
         setQualityCount(100);
@@ -1322,7 +1322,7 @@ export default function Home({
                     {yearsCount}+ Years of Proven Excellence
                   </h3>
                   <p className="text-gray-400 text-sm leading-relaxed font-body font-light">
-                    Since 1999 Midland has been setting the benchmark for copper manufacturing quality. Two and a half decades of experience means we have seen every challenge and perfected every process.
+                    For over 15 years Midland has been setting the benchmark for copper manufacturing quality. A decade and a half of experience means we have seen every challenge and perfected every process.
                   </p>
                 </div>
                 <div className="font-display font-black text-7xl text-[#B08D57]/20 mt-auto leading-none select-none">
@@ -1538,24 +1538,7 @@ export default function Home({
                   From our manufacturing facility we ship premium copper products to clients across North, South, East and West India. Our pan-India logistics network ensures reliable on-time delivery with complete documentation to any destination.
                 </p>
 
-                {/* Region tags */}
-                <div className="flex flex-wrap gap-3 pt-2">
-                  <span className="border border-white/20 text-gray-300 px-4 py-2 text-xs font-body hover:border-[#B08D57] hover:text-[#B08D57] transition-all duration-300 rounded-sm select-none">
-                    🧭 North India
-                  </span>
-                  <span className="border border-white/20 text-gray-300 px-4 py-2 text-xs font-body hover:border-[#B08D57] hover:text-[#B08D57] transition-all duration-300 rounded-sm select-none">
-                    🧭 South India
-                  </span>
-                  <span className="border border-white/20 text-gray-300 px-3.5 py-2 text-xs font-body hover:border-[#B08D57] hover:text-[#B08D57] transition-all duration-300 rounded-sm select-none">
-                    🧭 West India
-                  </span>
-                  <span className="border border-white/20 text-gray-300 px-3.5 py-2 text-xs font-body hover:border-[#B08D57] hover:text-[#B08D57] transition-all duration-300 rounded-sm select-none">
-                    🧭 East India
-                  </span>
-                  <span className="border border-white/20 text-gray-300 px-3.5 py-2 text-xs font-body hover:border-[#B08D57] hover:text-[#B08D57] transition-all duration-300 rounded-sm select-none">
-                    🧭 Central India
-                  </span>
-                </div>
+               
 
                 {/* Stats Grid */}
                 <div className="grid grid-cols-2 gap-4 pt-4">
