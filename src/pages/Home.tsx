@@ -691,9 +691,7 @@ export default function Home({
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <span className="absolute bottom-4 left-4 text-[10px] font-mono text-white tracking-widest uppercase bg-industrial-black/85 px-2.5 py-1 rounded-[4px]">
-                  CORPORATE HQ
-                </span>
+                
               </div>
 
               <div className="col-span-5 flex flex-col gap-3 md:gap-4 justify-between h-[280px] sm:h-[400px]">
@@ -1563,93 +1561,17 @@ export default function Home({
 
               {/* Right Map Column (5 cols) */}
               <div className="lg:col-span-6">
-                <div className="bg-[#1F1F1F] border border-white/10 p-8 flex flex-col justify-center min-h-[400px] relative overflow-hidden rounded-sm w-full h-full">
-
-                  {/* SVG Simplified India Outline */}
-                  <svg viewBox="0 0 500 500" className="w-full h-full opacity-35 pointer-events-none select-none z-0">
-                    <path d="M220 60 L260 55 L300 70 L320 110 L360 130 L380 170 L370 210 L390 240 L380 280 L350 300 L340 340 L320 380 L300 410 L280 440 L260 410 L250 370 L230 340 L210 360 L190 330 L200 290 L180 260 L170 220 L190 190 L180 150 L200 110 L210 80 Z" stroke="#B08D57" strokeWidth="1.5" strokeDasharray="3 4" fill="#B08D57" fillOpacity="0.08" />
-                  </svg>
-
-                  {/* Animated Pulse Dots - Major Indian Cities */}
-
-                  {/* Delhi */}
-                  <div className="absolute top-[22%] left-[48%] group cursor-pointer" id="dot-delhi">
-                    <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
-                    <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
-                    <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      Delhi
-                    </div>
-                  </div>
-
-                  {/* Mumbai */}
-                  <div className="absolute top-[52%] left-[36%] group cursor-pointer" id="dot-mumbai">
-                    <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
-                    <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
-                    <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      Mumbai
-                    </div>
-                  </div>
-
-                  {/* Ahmedabad */}
-                  <div className="absolute top-[42%] left-[35%] group cursor-pointer" id="dot-ahmedabad">
-                    <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
-                    <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
-                    <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      Ahmedabad
-                    </div>
-                  </div>
-
-                  {/* Bengaluru */}
-                  <div className="absolute top-[72%] left-[45%] group cursor-pointer" id="dot-bengaluru">
-                    <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
-                    <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
-                    <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      Bengaluru
-                    </div>
-                  </div>
-
-                  {/* Chennai */}
-                  <div className="absolute top-[78%] left-[52%] group cursor-pointer" id="dot-chennai">
-                    <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
-                    <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
-                    <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      Chennai
-                    </div>
-                  </div>
-
-                  {/* Kolkata */}
-                  <div className="absolute top-[48%] left-[62%] group cursor-pointer" id="dot-kolkata">
-                    <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
-                    <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
-                    <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      Kolkata
-                    </div>
-                  </div>
-
-                  {/* Hyderabad */}
-                  <div className="absolute top-[64%] left-[50%] group cursor-pointer" id="dot-hyderabad">
-                    <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
-                    <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
-                    <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      Hyderabad
-                    </div>
-                  </div>
-
-                  {/* Pune */}
-                  <div className="absolute top-[58%] left-[40%] group cursor-pointer" id="dot-pune">
-                    <div className="absolute inset-0 rounded-full w-3.5 h-3.5 bg-[#B08D57] animate-pulse-custom"></div>
-                    <div className="relative w-3.5 h-3.5 rounded-full bg-[#B08D57] border border-white"></div>
-                    <div className="absolute bg-white text-[#111111] text-[10px] px-2.5 py-1 font-body whitespace-nowrap bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-sm shadow-md font-bold font-mono z-50">
-                      Pune
-                    </div>
-                  </div>
-
-                  <div className="absolute bottom-6 left-0 right-0 text-center">
-                    <span className="font-display font-semibold text-white text-sm bg-[#111111]/90 px-3 py-1.5 border border-white/10 rounded-sm">
-                      15+ States
-                    </span>
-                  </div>
-                </div>
+               <div className="w-full h-full min-h-[400px] rounded-sm overflow-hidden border border-white/10">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29250838.18065772!2d61.0245165611659!3d19.69009515037612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e1!3m2!1sen!2sin!4v1782569091921!5m2!1sen!2sin"
+    className="w-full h-full min-h-[550px]"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="strict-origin-when-cross-origin"
+    title="India Map"
+  />
+</div>
               </div>
             </div>
           </div>
