@@ -80,12 +80,12 @@ export default function Contact() {
         {/* Absolute Background Image (Right side) */}
         <div className="absolute inset-y-0 right-0 w-full lg:w-1/2" id="hero-image-overlay-bg">
           <img 
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200" 
+            src="/images/contact-us.webp" 
             alt="Copper coils and industrial copper production" 
             className="w-full h-full object-cover"
           />
           {/* Dark Overlay Gradient (Left to Right) */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#111111] via-[#111111]/95 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#111111] via-[#111111]/40 to-transparent" />
         </div>
 
         {/* Foreground Content */}

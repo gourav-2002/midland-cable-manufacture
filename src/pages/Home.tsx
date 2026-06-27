@@ -685,7 +685,7 @@ export default function Home({
             <div className="lg:col-span-7 grid grid-cols-12 gap-3 md:gap-4 relative">
               <div className="col-span-7 h-[280px] sm:h-[400px] overflow-hidden rounded-[4px] relative group hover:shadow-xl transition-all duration-300">
                 <img
-                  src="/images/factory_hq_1779552956267.png"
+                  src="/images/midland-facotory.webp"
                   alt="Midland Corporate Headquarters"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   referrerPolicy="no-referrer"
@@ -719,7 +719,7 @@ export default function Home({
 
                 <div className="h-[29%] overflow-hidden rounded-[4px] relative group">
                   <img
-                    src="https://picsum.photos/seed/factoryfloor/400/300"
+                    src="/images/copper-wire.webp"
                     alt="Midland manufacturing plant floor"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     referrerPolicy="no-referrer"
@@ -1343,7 +1343,8 @@ export default function Home({
                       {countriesCount}+ States Served
                     </h3>
                     <p className="text-gray-500 text-sm leading-relaxed font-body font-light group-hover:text-white/80 transition-colors duration-500">
-                      From North to South and East to West across the nation, our dedicated logistics network ensures reliable delivery to every corner of the country.
+                      Our dedicated logistics network ensures reliable delivery across every state, connecting businesses and customers nationwide.
+
                     </p>
                   </div>
                 </div>

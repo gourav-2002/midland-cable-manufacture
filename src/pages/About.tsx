@@ -313,7 +313,7 @@ export default function About() {
         {/* Right Side Image (Full block h-full w-full) */}
         <div className="relative h-96 lg:h-full w-full" id="hero-right">
           <img 
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200" 
+            src="/images/about-us-hero.webp" 
             alt="Midland heavy production hot mill casting"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -377,7 +377,7 @@ export default function About() {
           {/* Image Side */}
           <div className="relative h-[400px] lg:h-auto min-h-[500px]" id="row-1-image">
             <img 
-              src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=900" 
+              src="/images/about-our-mission.webp" 
               alt="Midland Grade A copper drawing"
               className="w-full h-full object-cover absolute inset-0"
               referrerPolicy="no-referrer"
@@ -492,7 +492,7 @@ export default function About() {
           {/* Image Side */}
           <div className="relative h-[400px] lg:h-auto min-h-[500px] order-1 lg:order-2" id="row-2-image">
             <img 
-              src="https://images.unsplash.com/photo-1565043666747-69f6646db940?w=900" 
+              src="/images/our-vision.webp" 
               alt="Midland international logistics and packaging"
               className="w-full h-full object-cover absolute inset-0"
               referrerPolicy="no-referrer"
@@ -669,7 +669,7 @@ export default function About() {
               {/* Image 1 full width header equivalent */}
               <div className="col-span-2 overflow-hidden" id="collage-img-1">
                 <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800"
+                  src="/images/about-us-hero.webp"
                   alt="Midland machinery automation panel"
                   className="h-48 w-full object-cover grayscale hover:grayscale-0 transition-all duration-700 cursor-crosshair transform hover:scale-105"
                   referrerPolicy="no-referrer"
@@ -679,7 +679,7 @@ export default function About() {
               {/* Column splits */}
               <div className="overflow-hidden" id="collage-img-2">
                 <img 
-                  src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400"
+                  src="/images/about-our-mission.webp"
                   alt="Copper drawing calibration"
                   className="h-48 w-full object-cover grayscale hover:grayscale-0 transition-all duration-700 cursor-crosshair transform hover:scale-105"
                   referrerPolicy="no-referrer"
@@ -688,7 +688,7 @@ export default function About() {
 
               <div className="overflow-hidden" id="collage-img-3">
                 <img 
-                  src="https://images.unsplash.com/photo-1565043666747-69f6646db940?w=400"
+                  src="/images/our-vision.webp"
                   alt="Industrial delivery preparation"
                   className="h-48 w-full object-cover grayscale hover:grayscale-0 transition-all duration-700 cursor-crosshair transform hover:scale-105"
                   referrerPolicy="no-referrer"

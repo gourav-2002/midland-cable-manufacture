@@ -53,14 +53,12 @@ export default function Navbar({ onOpenQuote, activeSection, onNavigate }: Navba
             className="flex items-center gap-3 cursor-pointer group"
             id="brand-logo-container"
           >
-            {/* Elegant luxury MC Monogram Logo match design HTML style */}
-            <div className="w-8 h-8 border-2 border-bronze-primary flex items-center justify-center font-black text-sm text-bronze-primary rounded-[4px] group-hover:bg-bronze-primary group-hover:text-white transition-all duration-300">
-              MC
-            </div>
-            <div className="leading-none select-none">
-              <div className="font-display text-white font-extrabold text-sm tracking-[0.05em]">MIDLAND</div>
-              <div className="font-body text-gray-400 text-[8px] tracking-[0.1em] uppercase opacity-80">CABLE MANUFACTURE</div>
-            </div>
+            <img
+              src="/images/logo.png"
+              alt="Midland Cable Manufacture logo"
+              className="h-14 w-auto object-contain"
+            />
+           
           </Link>
 
           {/* Desktop Nav Links */}

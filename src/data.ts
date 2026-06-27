@@ -9,7 +9,7 @@ export const HERO_SLIDES = [
     subtext: 'Midland Cable Manufacture is a globally recognized manufacturer of premium copper products and cables, delivering quality, reliability and performance across the world.',
   },
   {
-    image: '/images/factory_hq_1779552956267.png',
+    image: '/images/midland-facotory.webp',
     tagline: 'STATE-OF-THE-ART MANUFACTURING.',
     titleLine1: 'ENGINEERED',
     titleLine2: 'FOR FUTURE.',
@@ -128,26 +128,26 @@ export const PRODUCTS: Product[] = [
     applications: ['Electronic Components', 'Power Transmission', 'Flexible Braids', 'Transformers']
   },
   {
-    id: 'copper-sheets',
-    name: 'COPPER SHEETS',
-    tagline: 'Precision rolled plates & architectural sheets.',
-    description: 'Premium quality copper sheets for roofing, electrical and decorative use.',
-    longDescription: 'Specially cold-rolled and warm-rolled copper plates. These sheets boast impeccable surface uniformity, great thermal dissipation, and corrosion-resistant profiles suitable for industrial heat exchangers, busbars, and architectural cladding.',
-    image: 'https://images.unsplash.com/photo-1543088924-f187320b9fac?q=80&w=800', // Unsplash copper metal stock of outstanding aesthetic value
+    id: 'copper-coils-2',
+    name: 'COPPER COILS',
+    tagline: 'Tight-tolerance strip coils for rapid winding.',
+    description: 'Premium grade copper coils engineered for high-volume electrical and industrial winding lines.',
+    longDescription: 'Precision-slit copper strip and wire coils produced under tight gauge control for transformer, motor and inductor winding lines. Wound on sturdy cores and moisture-sealed for safe long-distance shipping and storage.',
+    image: '/images/copper-coil.webp',
     features: [
-      'Superior flat tolerances across heavy dimensions',
-      'Excellent weldability and brazing performance',
-      'Deep drawing and metal spin formabilities',
-      'Exceptional oxidation resistance qualities'
+      'Tight gauge and width tolerances throughout the coil',
+      'Smooth, burr-free edges for automated winding lines',
+      'Consistent temper across the full coil length',
+      'Moisture-sealed packaging for export shipments'
     ],
     specs: [
-      { label: 'Thickness Range', value: '0.3mm to 50.0mm' },
-      { label: 'Width Options', value: '600mm, 1000mm, 1250mm' },
-      { label: 'Hardness Temper', value: 'O, H01, H02, H04' },
-      { label: 'Surface Finish', value: 'Mill finish, Polished, Brushed' }
+      { label: 'Width Range', value: '8mm - 350mm' },
+      { label: 'Strip Thickness', value: '0.15mm - 2.50mm' },
+      { label: 'Coil Weight', value: 'Up to 1500 kg per coil' },
+      { label: 'Packaging', value: 'Moisture-proof wrap with steel strapping' }
     ],
-    alloyGrades: ['C11000', 'C12200 (DHP Phosphorized)', 'C10200'],
-    applications: ['Busbars & Switchgear', 'Industrial Boiler Gaskets', 'Architectural Facades', 'Grounding Systems']
+    alloyGrades: ['C11000 (ETP)', 'C10200', 'C12200 (DHP)'],
+    applications: ['Transformer Winding', 'Motor & Generator Coils', 'Relay & Solenoid Coils', 'Cable Armouring']
   },
   {
     id: 'copper-tubes',

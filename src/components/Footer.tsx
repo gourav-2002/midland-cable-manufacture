@@ -20,13 +20,11 @@ export default function Footer({ onNavigateToSection, onOpenQuote }: FooterProps
           {/* Column 1 — Brand (wider) */}
           <div className="lg:col-span-5 space-y-6" id="footer-col-brand">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 border-2 border-[#B08D57] flex items-center justify-center font-black text-sm text-[#B08D57] rounded-[4px] select-none">
-                MC
-              </div>
-              <div>
-                <div className="font-display font-extrabold tracking-[0.05em] text-sm text-white">MIDLAND</div>
-                <div className="text-[8px] text-[#B08D57] font-body tracking-[0.15em] uppercase font-semibold">CABLE MANUFACTURE</div>
-              </div>
+              <img
+                src="/images/logo.png"
+                alt="Midland Cable Manufacture logo"
+                className="h-14 w-auto object-contain"
+              />
             </div>
             
             <p className="text-sm text-gray-400 font-body font-light leading-relaxed max-w-xs">
